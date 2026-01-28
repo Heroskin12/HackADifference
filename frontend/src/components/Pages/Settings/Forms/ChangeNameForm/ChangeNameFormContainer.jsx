@@ -1,6 +1,6 @@
 import ChangeNameForm from "./ChangeNameForm";
 import { useState } from "react";
-import { changeName } from "../../../../../api/changeSettings";
+// TODO: Implement new API - import { changeName } from "../../../../../api/changeSettings";
 import { sanitizeInput } from "../../../../../utilities/inputUtils";
 import { useTranslation } from "react-i18next";
 

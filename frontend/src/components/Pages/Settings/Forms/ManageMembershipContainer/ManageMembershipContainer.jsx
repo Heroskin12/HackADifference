@@ -1,14 +1,10 @@
 import ManageMembership from "./ManageMembership";
-import { fetchManageSubscriptionLink } from "../../../../../api/membership";
+// TODO: Implement new API - import { fetchManageSubscriptionLink } from "../../../../../api/membership";
 export default function ManageMembershipContainer({ membership }) {
+  // All payment actions are now dummy
   const cancelMembership = async () => {
-    try {
-      const data = await fetchManageSubscriptionLink();
-      return data.sessionUrl;
-    } catch (error) {
-      console.error("Failed to fetch manage subscription link:", error);
-      return null;
-    }
+    alert("Cancel Membership (UI only, no backend)");
+    return null;
   };
   return (
     <div>

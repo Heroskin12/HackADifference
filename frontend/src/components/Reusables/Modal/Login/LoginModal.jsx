@@ -10,7 +10,6 @@ export default function LoginModal({
   error,
   handleChange,
   handleLogin,
-  isPremiumContent,
 }) {
   const [showPassword, setShowPassword] = useState(false); // State to toggle password visibility
   const { t } = useTranslation("auth");
@@ -23,39 +22,25 @@ export default function LoginModal({
     <BaseModal onClose={closeModal} type="login">
       <div className="flex flex-col items-center justify-between">
         <div>
-          {isPremiumContent ? (
-            <>
-              <h2 className="text-[24px] font-heading font-semibold text-dark-primary text-center">
-                {t("login.premiumTitle")}
-              </h2>
-              <p className="text-text-secondary text-[14px] px-4 mt-2 font-fun">
-                {t("login.premiumMessage")}
-              </p>
-            </>
-          ) : (
-            <h2 className="text-[24px] font-heading font-semibold text-dark-primary text-center">
-              {t("login.title")}
-            </h2>
-          )}
-          {!isPremiumContent && (
-            <div className="flex justify-center">
-              <p className="text-[14px] font-fun font-normal text-[#A5A5A5]">
-                {t("login.newHere")}
-                <span className="pl-1">
-                  <span
-                    className="text-[14px] font-fun font-normal text-[#A5A5A5] underline cursor-pointer"
-                    onClick={() => {
-                      openModal("signup");
-                    }}
-                  >
-                    {t("login.signup")}
-                  </span>
+          <h2 className="text-[24px] font-heading font-semibold text-dark-primary text-center">
+            {t("login.title")}
+          </h2>
+          <div className="flex justify-center">
+            <p className="text-[14px] font-fun font-normal text-[#A5A5A5]">
+              {t("login.newHere")}
+              <span className="pl-1">
+                <span
+                  className="text-[14px] font-fun font-normal text-[#A5A5A5] underline cursor-pointer"
+                  onClick={() => {
+                    openModal("signup");
+                  }}
+                >
+                  {t("login.signup")}
                 </span>
-              </p>
-            </div>
-          )}
+              </span>
+            </p>
+          </div>
         </div>
-
         <form
           className="flex flex-col gap-4 w-full max-w-sm p-4"
           onSubmit={handleLogin}

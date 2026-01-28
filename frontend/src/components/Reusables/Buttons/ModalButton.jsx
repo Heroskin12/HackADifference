@@ -18,9 +18,9 @@ export default function ModalButton({ type, children }) {
   return (
     <button
       className={classes}
-      onClick={() => {
-        openModal(type);
-      }}
+      onClick={type === "signup" ? undefined : () => openModal(type)}
+      disabled={type === "signup"}
+      style={type === "signup" ? { opacity: 0.5, pointerEvents: "none" } : {}}
     >
       {children || "Header Button"}
     </button>

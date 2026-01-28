@@ -1,44 +1,28 @@
-import { createContext, useEffect, useState } from "react";
-import { fetchUserDetails } from "../api/user";
+import { createContext, useState } from "react";
 
 export const AuthContext = createContext();
 
 export default function AuthProvider({ children }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userInfo, setUserInfo] = useState(null);
-  const [loading, setLoading] = useState(true); // Track loading state
+  const [loading, setLoading] = useState(false); // No real loading in mock
 
-  useEffect(() => {
-    const getUserDetails = async () => {
-      const userDetails = await fetchUserDetails();
-      if (
-        userDetails &&
-        (userDetails.name !== undefined || userDetails.email)
-      ) {
+  // Mock login: accepts only username 'streetleague' and password '1234'
+  const login = (username, password) => {
+    setLoading(true);
+    setTimeout(() => {
+      if (username === "streetleague" && password === "1234") {
         setIsAuthenticated(true);
-        setUserInfo(userDetails);
-      } else {
-        setIsAuthenticated(false);
-        setUserInfo(null);
-      }
-      setLoading(false); // Set loading to false after fetch completes
-    };
-
-    getUserDetails();
-  }, []);
-
-  const login = () => {
-    setIsAuthenticated(true);
-    setLoading(true); // Set loading to true during login
-    fetchUserDetails().then((userDetails) => {
-      if (userDetails) {
-        setUserInfo(userDetails);
+        setUserInfo({
+          name: "Street League User",
+          email: "streetleague@example.com",
+        });
       } else {
         setIsAuthenticated(false);
         setUserInfo(null);
       }
       setLoading(false);
-    });
+    }, 400);
   };
 
   const logout = () => {
@@ -51,7 +35,6 @@ export default function AuthProvider({ children }) {
       value={{
         isAuthenticated,
         userInfo,
-        setUserInfo,
         loading,
         login,
         logout,

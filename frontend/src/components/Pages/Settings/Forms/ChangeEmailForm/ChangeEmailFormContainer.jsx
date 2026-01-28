@@ -1,9 +1,6 @@
 import ChangeEmailForm from "./ChangeEmailForm";
 import { useEffect, useState } from "react";
-import {
-  changeEmail,
-  sendOtpToNewEmail,
-} from "../../../../../api/changeSettings";
+// TODO: Implement new API - import { changeEmail, sendOtpToNewEmail } from "../../../../../api/changeSettings";
 import {
   sanitizeInput,
   checkEmailValidity,

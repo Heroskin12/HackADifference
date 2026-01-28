@@ -14,11 +14,22 @@ export default function FilterItem({
   const buttonRef = useRef(null);
   const [dropdownPos, setDropdownPos] = useState({ top: 0, left: 0, width: 0 });
 
-  // Sort options alphabetically for level filter
-  const sortedOptions =
-    label.toLowerCase() === "level" || label.toLowerCase() === "nivel"
-      ? [...options].sort((a, b) => a.name.localeCompare(b.name))
-      : options;
+  // Support both string and object options
+  let sortedOptions = options;
+  if (
+    (label.toLowerCase() === "level" || label.toLowerCase() === "nivel") &&
+    Array.isArray(options)
+  ) {
+    if (
+      typeof options[0] === "object" &&
+      options[0] !== null &&
+      "name" in options[0]
+    ) {
+      sortedOptions = [...options].sort((a, b) => a.name.localeCompare(b.name));
+    } else if (typeof options[0] === "string") {
+      sortedOptions = [...options].sort((a, b) => a.localeCompare(b));
+    }
+  }
 
   useEffect(() => {
     if (isOpen && buttonRef.current) {
@@ -64,18 +75,36 @@ export default function FilterItem({
             <ul
               className="text-dark-primary text-left px-0 max-h-48 overflow-y-scroll font-primary" // Always show scrollbar
             >
-              {sortedOptions.map((option) => (
-                <li
-                  key={option.id}
-                  onClick={() => onSelect(option.name, option.id)}
-                  className="filter-option w-full px-4 whitespace-nowrap" // Prevent text wrapping
-                >
-                  {option.name}
-                </li>
-              ))}
+              {sortedOptions.map((option, idx) => {
+                if (
+                  typeof option === "object" &&
+                  option !== null &&
+                  "name" in option
+                ) {
+                  return (
+                    <li
+                      key={option.id || option.name || idx}
+                      onClick={() => onSelect(option.name, option.id)}
+                      className="filter-option w-full px-4 whitespace-nowrap"
+                    >
+                      {option.name}
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li
+                      key={option}
+                      onClick={() => onSelect(option, option)}
+                      className="filter-option w-full px-4 whitespace-nowrap"
+                    >
+                      {option}
+                    </li>
+                  );
+                }
+              })}
             </ul>
           </div>,
-          document.body
+          document.body,
         )}
     </div>
   );

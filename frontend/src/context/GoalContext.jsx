@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { AuthContext } from "./AuthContext"; // Adjust the path as needed
-import { updateWatchTime } from "../api/video"; // Adjust the path as needed
-import { changeGoal } from "../api/changeSettings"; // Adjust the path as needed
+import { AuthContext } from "./AuthContext";
+// TODO: Implement new API - import { updateWatchTime } from "../api/video";
+// TODO: Implement new API - import { changeGoal } from "../api/changeSettings";
 
 export const GoalContext = createContext();
 
@@ -25,7 +25,7 @@ export default function GoalProvider({ children }) {
 
   const [progress, setProgress] = useState(() => {
     const savedProgress = JSON.parse(
-      localStorage.getItem("guestDailyProgress")
+      localStorage.getItem("guestDailyProgress"),
     );
     const currentTime = new Date().getTime();
     const midnight = new Date();
@@ -43,7 +43,7 @@ export default function GoalProvider({ children }) {
           JSON.stringify({
             value: 0,
             expirationTime: midnight.getTime(),
-          })
+          }),
         );
         return 0; // Default progress is 0
       }
@@ -55,7 +55,7 @@ export default function GoalProvider({ children }) {
       JSON.stringify({
         value: 0,
         expirationTime: midnight.getTime(),
-      })
+      }),
     );
     return 0;
   });
@@ -121,7 +121,7 @@ export default function GoalProvider({ children }) {
         JSON.stringify({
           value: updatedProgress,
           expirationTime: midnight.getTime(),
-        })
+        }),
       );
     } else {
       const initialProgress = Math.min(2, goal); // Initialize progress but cap it at the goal
@@ -131,7 +131,7 @@ export default function GoalProvider({ children }) {
         JSON.stringify({
           value: initialProgress,
           expirationTime: midnight.getTime(),
-        })
+        }),
       );
       setProgress(initialProgress);
     }
@@ -148,7 +148,7 @@ export default function GoalProvider({ children }) {
         JSON.stringify({
           value: newGoal,
           expirationTime: midnight.getTime(),
-        })
+        }),
       );
     }
 

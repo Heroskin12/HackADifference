@@ -1,6 +1,6 @@
 import ChangePasswordForm from "./ChangePasswordForm";
 import { useState } from "react";
-import { changePassword } from "../../../../../api/changeSettings";
+// TODO: Implement new API - import { changePassword } from "../../../../../api/changeSettings";
 import {
   sanitizeInput,
   validatePassword,
@@ -30,7 +30,7 @@ export default function ChangePasswordFormContainer() {
       try {
         const response = await changePassword(
           formData.currentPassword,
-          formData.confirmNewPassword
+          formData.confirmNewPassword,
         );
         if (response.success) {
           alert("Password changed successfully!");

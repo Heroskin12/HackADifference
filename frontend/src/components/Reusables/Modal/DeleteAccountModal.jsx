@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ModalContext } from "./ModalContext";
 import BaseModal from "./BaseModal";
 import StopIcon from "../../../assets/StopIcon";
-import { deleteAccount } from "../../../api/changeSettings";
+// TODO: Implement new API - import { deleteAccount } from "../../../api/changeSettings";
 import { useState } from "react";
 import { AuthContext } from "../../../context/AuthContext.jsx";
 import { useTranslation } from "react-i18next";

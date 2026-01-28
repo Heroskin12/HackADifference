@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import ProgressGoal from "./ProgressGoal";
 import { AuthContext } from "../../../context/AuthContext";
 import { GoalContext } from "../../../context/GoalContext";
-import { fetchUserActivity } from "../../../api/userActivity";
+// TODO: Implement new API - import { fetchUserActivity } from "../../../api/userActivity";
 import { useTranslation } from "react-i18next";
 
 export default function ProgressGoalContainer() {

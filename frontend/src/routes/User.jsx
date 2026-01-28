@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
-import ProgressGoalContainer from "../components/Reusables/ProgressGoal/ProgressGoalContainer";
+// import ProgressGoalContainer from "../components/Reusables/ProgressGoal/ProgressGoalContainer";
 import AltHeader from "../components/Reusables/Headers/AltHeader/AltHeader";
 import OutsideHoursContainer from "../components/Reusables/OutsideHours/OutsideHoursContainer";
 import { useTranslation } from "react-i18next";
@@ -42,14 +42,11 @@ export default function User() {
                 </p>
               </div>
             </div>
-
-            <ProgressGoalContainer userInfo={userInfo} />
-            <OutsideHoursContainer />
           </div>
         ) : (
           <>
             <p className="font-primary">{t("loginMessage")}</p>
-            <ProgressGoalContainer />
+            {/* Progress bar removed */}
           </>
         )}
       </div>

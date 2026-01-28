@@ -7,9 +7,7 @@ import DeleteAccountModal from "./DeleteAccountModal.jsx";
 import ForgotPasswordModalContainer from "./ForgotPassword/ForgotPasswordModalContainer.jsx";
 import SetNewPasswordModalContainer from "./SetNewPassword/SetNewPasswordModalContainer.jsx";
 import LevelModalContainer from "./LevelModal/LevelModalContainer.jsx";
-import SubscribeModalContainer from "./Membership/Subscribe/SubscribeModalContainer.jsx";
-import PaymentSuccessModalContainer from "./Membership/PaymentSuccess/PaymentSuccessModalContainer.jsx";
-import PaymentFailModalContainer from "./Membership/PaymentFail/PaymentFailModalContainer.jsx";
+// Payment modals removed
 
 const MODAL_COMPONENTS = {
   login: LoginModalContainer,
@@ -19,9 +17,7 @@ const MODAL_COMPONENTS = {
   forgotPassword: ForgotPasswordModalContainer,
   setNewPassword: SetNewPasswordModalContainer,
   level: LevelModalContainer,
-  subscribe: SubscribeModalContainer,
-  paymentSuccess: PaymentSuccessModalContainer,
-  paymentFail: PaymentFailModalContainer,
+  // subscribe, paymentSuccess, paymentFail modals removed
 };
 
 export default function ModalManager() {

@@ -1,5 +1,5 @@
 import Timeline from "./Timeline";
-import { fetchTimelineData } from "../../../../api/timeline.js";
+// TODO: Implement new API - import { fetchTimelineData } from "../../../../api/timeline.js";
 import { useEffect, useState } from "react";
 
 export default function TimelineContainer({ currentLevel }) {
@@ -21,7 +21,7 @@ export default function TimelineContainer({ currentLevel }) {
 
         // Check if B1.5 already exists in backend data
         const hasB15 = data.some(
-          (item) => item.name === "B1.5 Upper-Intermediate"
+          (item) => item.name === "B1.5 Upper-Intermediate",
         );
         if (!hasB15) {
           enhancedData.splice(4, 0, {
