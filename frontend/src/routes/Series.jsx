@@ -22,22 +22,8 @@ export default function Series() {
   // Handle video click
   const handleVideoClick = (video, e) => {
     e.preventDefault();
-
-    // Check if video is locked
-    if (video.locked) {
-      if (!isAuthenticated) {
-        // Show login modal for unauthenticated users
-        openModal("login", { isPremiumContent: true });
-        return;
-      } else {
-        // Show subscribe modal for authenticated users
-        openModal("subscribe");
-        return;
-      }
-    }
-
-    // Navigate to the video
-    navigate(`/post/${video.id}`);
+    // Always go to dummy post page with dummy data
+    navigate("/post/dummy");
   };
 
   // Function to get the best available YouTube thumbnail

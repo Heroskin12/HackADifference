@@ -5,6 +5,19 @@ import GridButton from "../components/Reusables/Buttons/GridButton";
 import LockIcon from "../assets/LockIcon";
 // TODO: Implement new API - import { fetchVideoDetails } from "../api/video";
 import { useEffect, useState, useContext } from "react";
+// Dummy data for the post page
+const DUMMY_VIDEO = {
+  id: "dummy",
+  title: "How to Learn English Fast! (Demo)",
+  guide: "Jane Doe",
+  link: "dQw4w9WgXcQ",
+  level: "Beginner",
+  accent: "US",
+  topics: ["Speaking", "Listening"],
+  locked: false,
+  description:
+    "This is a demo video page using a real YouTube video. All data is hardcoded for demonstration purposes.",
+};
 import YoutubeVideo from "../components/YoutubeVideo";
 // TODO: Implement new API - import { fetchSeriesVideosById } from "../api/series";
 import { AuthContext } from "../context/AuthContext";
@@ -77,19 +90,16 @@ export default function Post() {
 
   // Fetches the video data once.
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await fetchVideoDetails(id);
-        setVideoDetails(data);
-        // Check if videoDetails contains a seriesId
-        setIsSeries(!!data.series);
-      } catch (error) {
-        console.error("Error fetching video details:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchData();
+    if (id === "dummy") {
+      setVideoDetails(DUMMY_VIDEO);
+      setIsSeries(false);
+      setLoading(false);
+    } else {
+      // fallback: show loading or error for non-dummy
+      setVideoDetails(null);
+      setIsSeries(false);
+      setLoading(false);
+    }
   }, [id]);
 
   useEffect(() => {

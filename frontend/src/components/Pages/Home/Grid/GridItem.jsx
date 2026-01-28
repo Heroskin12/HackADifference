@@ -17,21 +17,8 @@ const GridItem = memo(({ item }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    // Check if video is locked
-    if (locked) {
-      if (!isAuthenticated) {
-        // Show login modal for unauthenticated users
-        openModal("login", { isPremiumContent: true });
-        return;
-      } else {
-        // Show subscribe modal for authenticated users
-        openModal("subscribe");
-        return;
-      }
-    }
-
-    // Navigate to the post
-    navigate(`/post/${id}`);
+    // Always go to dummy post page with dummy data
+    navigate("/post/dummy");
   };
 
   useEffect(() => {
