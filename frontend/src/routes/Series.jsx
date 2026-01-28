@@ -91,12 +91,12 @@ export default function Series() {
 
   return (
     <>
-      <div className="bg-light-primary">
+      <div className="min-h-screen-bg-white">
         <Header />
         <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-4"></div>
         <div className="pt-4 px-4 pb-12 max-w-7xl mx-auto">
           <div className="flex justify-center flex-col items-center">
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-fun font-bold p-2 pb-0 text-center">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold p-2 pb-0 text-center">
               {seriesDetails?.name || t("fallbackTitle")}
             </h1>
             {seriesDetails?.description && (
@@ -111,7 +111,7 @@ export default function Series() {
             </ul>
           </div>
           <div className="mt-4 p-2 rounded-sm">
-            <h1 className="font-fun text-xl sm:text-2xl font-bold mb-3 p-2 text-center sm:text-left">
+            <h1 className="font-heading text-xl sm:text-2xl font-bold mb-3 p-2 text-center sm:text-left">
               {t("allVideosTitle")}
             </h1>
             <div className="space-y-2">

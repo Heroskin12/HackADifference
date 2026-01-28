@@ -3,33 +3,15 @@ import { createContext, useState } from "react";
 export const AuthContext = createContext();
 
 export default function AuthProvider({ children }) {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [userInfo, setUserInfo] = useState(null);
-  const [loading, setLoading] = useState(false); // No real loading in mock
-
-  // Mock login: accepts only username 'streetleague' and password '1234'
-  const login = (username, password) => {
-    setLoading(true);
-    setTimeout(() => {
-      if (username === "streetleague" && password === "1234") {
-        setIsAuthenticated(true);
-        setUserInfo({
-          name: "Street League User",
-          email: "streetleague@example.com",
-        });
-      } else {
-        setIsAuthenticated(false);
-        setUserInfo(null);
-      }
-      setLoading(false);
-    }, 400);
+  // Always provide the dummy Street League user info
+  const userInfo = {
+    name: "Street League User",
+    email: "streetleague@example.com",
   };
-
-  const logout = () => {
-    setIsAuthenticated(false);
-    setUserInfo(null);
-  };
-
+  const isAuthenticated = true;
+  const loading = false;
+  const login = () => {};
+  const logout = () => {};
   return (
     <AuthContext.Provider
       value={{

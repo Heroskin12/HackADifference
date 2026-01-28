@@ -7,7 +7,7 @@ import NotLoggedInScreen from "../components/Authentication/NotLoggedInScreen/No
 import { useTranslation } from "react-i18next";
 
 export default function Settings() {
-  const { isAuthenticated, loading } = useContext(AuthContext);
+  const { loading } = useContext(AuthContext);
   const { t } = useTranslation("settings");
 
   if (loading) {
@@ -20,27 +20,20 @@ export default function Settings() {
   }
 
   return (
-    <div className="bg-light-primary">
+    <div className="min-h-screen-bg-white">
       <Header />
       <div className="p-4">
-        <h1 className="text-[18px] font-fun font-semibold">{t("title")}</h1>
+        <h1 className="text-[18px] font-heading font-semibold">{t("title")}</h1>
         <p className="text-text-secondary text-[14px] font-primary">
           {t("subtitle")}
         </p>
         <hr className="border-[#A5A5A5] my-2" />
-
-        {isAuthenticated ? (
-          <div className="flex flex-col">
-            <SettingsFormContainer />
-            <div>
-              <ModalButton type="deleteAccount">
-                {t("deleteAccount")}
-              </ModalButton>
-            </div>
+        <div className="flex flex-col">
+          <SettingsFormContainer />
+          <div>
+            <ModalButton type="deleteAccount">{t("deleteAccount")}</ModalButton>
           </div>
-        ) : (
-          <NotLoggedInScreen />
-        )}
+        </div>
       </div>
     </div>
   );

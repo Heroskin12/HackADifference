@@ -6,8 +6,8 @@ export default function Error() {
   const { t } = useTranslation("error");
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-light-primary">
-      <h1 className="text-[24px] font-fun font-bold text-dark-primary">
+    <div className="flex flex-col items-center justify-center min-h-screen-bg-white">
+      <h1 className="text-[24px] font-heading font-bold text-dark-primary">
         {t("title")}
       </h1>
       <p className="text-[16px] font-primary text-text-secondary mt-2">

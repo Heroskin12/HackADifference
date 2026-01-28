@@ -2,7 +2,6 @@ import { useContext } from "react";
 import LogoBar from "../../Logo/LogoBar.jsx";
 import LogoBarSmall from "../../Logo/LogoBarSmall.jsx";
 import ModalButton from "../../Buttons/ModalButton.jsx";
-import ProgressBar from "../../ProgressBar/ProgressBar.jsx";
 import { AuthContext } from "../../../../context/AuthContext.jsx";
 import { useTranslation } from "react-i18next";
 
@@ -72,11 +71,6 @@ export default function AltHeader() {
             </div>
           )}
         </div>
-      </div>
-
-      {/* Second row of header. */}
-      <div className="flex flex-col px-4 w-full space-y-3">
-        <ProgressBar progress={20} />
       </div>
     </>
   );

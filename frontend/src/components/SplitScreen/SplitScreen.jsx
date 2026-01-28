@@ -31,7 +31,7 @@ export default function SplitScreen() {
       <div className="bg-dark-primary flex-1">
         <div
           className={`
-            bg-light-primary
+            bg-white
             md:rounded-tl-[15px] rounded-bl-[15px]
             p-4 
             transition-all duration-300

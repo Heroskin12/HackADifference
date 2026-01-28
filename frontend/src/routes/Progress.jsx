@@ -77,19 +77,9 @@ export default function Progress() {
     return Math.ceil(totalMinutes / dailyWatchTime.length);
   };
 
-  if (!isAuthenticated) {
-    return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[60vh]">
-        <h1 className="text-2xl font-fun font-bold mt-10">
-          {t("progressRemoved", "Progress tracking is disabled in this demo.")}
-        </h1>
-      </div>
-    );
-  }
-
   return (
-    <div className="z-1">
-      <h1 className="flex font-fun font-bold text-[clamp(34px,5vw,48px)] whitespace-nowrap p-4">
+    <div className="min-h-screen-bg-white z-1">
+      <h1 className="flex font-heading font-bold text-[clamp(34px,5vw,48px)] whitespace-nowrap p-4">
         {t("title", "Your Progress")}
       </h1>
       {/* Card Section */}

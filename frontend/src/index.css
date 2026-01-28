@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
 
 @import "tailwindcss";
 
@@ -20,11 +21,13 @@
 
   /* Typography System - Easy font switching */
   /* Base fonts */
-  --font-primary: "Inter", sans-serif; /* Main text font */
-  --font-secondary: "Roboto", sans-serif; /* Secondary/body text */
-  --font-fun: "Comfortaa", sans-serif; /* Fun but readable font */
-  --font-heading: "Poppins", sans-serif; /* Modern, friendly headings */
-  --font-display: "Nunito", sans-serif; /* Rounded display/hero text */
+  --font-primary: "Roboto", sans-serif; /* Main text font */
+  --font-secondary: "Inter", sans-serif; /* Secondary/body text */
+  --font-fun: "Poppins", sans-serif; /* Fun but readable font */
+  --font-heading:
+    "Oswald", Arial Narrow, Arial, sans-serif; /* Professional, condensed headings */
+  --font-display:
+    "Oswald", Arial Narrow, Arial, sans-serif; /* Display/hero text */
 
   /* Legacy support (keep existing usage working) */
   --font-sans: var(--font-primary);
@@ -57,9 +60,17 @@
 }
 .font-heading {
   font-family: var(--font-heading);
+  font-stretch: condensed;
+  letter-spacing: 0.01em;
 }
 .font-display {
   font-family: var(--font-display);
+}
+
+/* Utility: Ensure all main screens stretch to 100vh and have white background */
+.min-h-screen-bg-white {
+  min-height: 100vh;
+  background: #fff;
 }
 
 /* Semantic Typography Classes */
@@ -105,6 +116,7 @@
 
 .nav-link-desktop-uncollapsed {
   @apply h-[50px] flex items-center rounded-sm cursor-pointer min-w-fit px-4;
+  font-family: var(--font-fun);
 }
 
 .nav-link-desktop-collapsed {

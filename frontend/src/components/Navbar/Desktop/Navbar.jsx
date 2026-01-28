@@ -1,13 +1,10 @@
 import { NavLink, useLocation } from "react-router";
 import CollapseIcon from "../../../assets/NavIcons/CollapseIcon.jsx";
 import { navItems } from "../navItems.js";
-import { AuthContext } from "../../../context/AuthContext.jsx";
-import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Navbar({ collapseHandler, isExpanded }) {
   const location = useLocation();
-  const { isAuthenticated } = useContext(AuthContext);
   const { t } = useTranslation("common");
 
   function renderCollapsedNavItems(items) {
@@ -15,7 +12,7 @@ export default function Navbar({ collapseHandler, isExpanded }) {
       <NavLink key={name} to={route}>
         <div
           className={`${
-            location.pathname === route ? "bg-yellow-accent" : ""
+            location.pathname === route ? "bg-[#B39B66]" : ""
           } nav-link-desktop-collapsed`}
         >
           {Icon && <Icon active={location.pathname === route} />}
@@ -31,7 +28,7 @@ export default function Navbar({ collapseHandler, isExpanded }) {
           className={`nav-link-desktop-uncollapsed transition-all duration-700
             ${
               location.pathname === route
-                ? "bg-yellow-accent text-dark-primary"
+                ? "bg-[#B39B66] text-light-primary"
                 : "text-light-primary"
             }
           `}
@@ -46,7 +43,7 @@ export default function Navbar({ collapseHandler, isExpanded }) {
   }
 
   return (
-    <div className="h-full py-[45px] flex flex-col justify-between">
+    <div className="h-full py-[45px] flex flex-col justify-between bg-[#262E3C]">
       <div className="flex flex-col space-y-[32px] items-center">
         <div
           onClick={() => collapseHandler()}
@@ -58,15 +55,6 @@ export default function Navbar({ collapseHandler, isExpanded }) {
           ? renderUncollapsedNavItems(navItems)
           : renderCollapsedNavItems(navItems)}
       </div>
-
-      {/* Lower Navbar Items */}
-      {/* {isAuthenticated && (
-        <div className="flex flex-col items-center space-y-[32px] cursor-pointer space-x-0">
-          {isExpanded
-            ? renderUncollapsedNavItems(navLogout)
-            : renderCollapsedNavItems(navLogout)}
-        </div>
-      )} */}
     </div>
   );
 }

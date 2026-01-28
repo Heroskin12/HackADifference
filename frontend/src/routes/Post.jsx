@@ -138,7 +138,7 @@ export default function Post() {
 
   return (
     <>
-      <div className="bg-light-primary">
+      <div className="min-h-screen-bg-white">
         <Header />
 
         {/* Main content area with responsive layout */}
@@ -152,7 +152,7 @@ export default function Post() {
             />
 
             <div className="md:pt-4 md:pe-4 pb-12 md:pl-6 pe-2 pl-2 lg:pl-0 lg:pe-0">
-              <h1 className="text-[18px] md:text-[24px] font-fun font-bold p-2 pb-0">
+              <h1 className="text-[18px] md:text-[24px] font-heading font-bold p-2 pb-0">
                 {videoDetails.title}
               </h1>
               <div className="flex items-center space-x-1 pl-2">
@@ -176,7 +176,7 @@ export default function Post() {
               </div>
               {videoDetails.description && (
                 <div className="mt-4 bg-white p-2 rounded-sm">
-                  <h1 className="font-fun text-[18px] font-bold">
+                  <h1 className="font-heading text-[18px] font-bold">
                     {t("description")}
                   </h1>
                   <p className="font-primary text-secondary">
@@ -189,7 +189,7 @@ export default function Post() {
               {isSeries && seriesData && (
                 <div className="mt-4 bg-white p-2 rounded-sm lg:hidden">
                   <div className="flex justify-between items-center mb-3 p-2">
-                    <h1 className="font-fun text-[18px] font-bold">
+                    <h1 className="font-heading text-[18px] font-bold">
                       {t("series.otherVideos")}
                     </h1>
                     <Link
