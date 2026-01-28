@@ -1,0 +1,22 @@
+meta {
+  name: Verify Email
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{host}}/api/auth/verify
+  body: text
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "ayushgoyalpro@gmail.com",
+    "password": "thisisp"
+  }
+}
+
+body:text {
+  ayushgoyalpro@gmail.com
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Informações do Usuário",
+  "subtitle": "Visualize suas informações de usuário atuais e defina sua meta diária de progresso.",
+  "welcomeBack": "Bem-vindo de volta",
+  "yourName": "Seu Nome:",
+  "yourEmail": "Seu Email:",
+  "notAuthenticated": "Usuário não autenticado.",
+  "loginMessage": "Faça login para ver suas informações de perfil e dados. Você ainda pode alterar sua meta diária, mas isso será redefinido a cada dia à meia-noite, além de seus dados de progresso.",
+  "progressGoal": {
+    "title": "Progresso",
+    "watchedToday": "Você assistiu <strong>{{minutes}}</strong> minutos hoje.",
+    "currentGoal": "Meta Atual: <strong>{{goal}}</strong> minutos.",
+    "setGoalTitle": "Defina Sua Meta Diária",
+    "setGoalDescription": "Sua meta diária mede a quantidade de tempo que você passou assistindo nossos vídeos de input compreensível. Isso será redefinido a cada dia.",
+    "saveGoal": "Salvar Meta",
+    "guestAlert": "Meta salva para usuário convidado!"
+  },
+  "outsideHours": {
+    "title": "Horas Externas",
+    "description1": "Aqui você pode adicionar a quantidade de tempo que passou ouvindo outros recursos de input compreensível de inglês fora do EnglishSponge.",
+    "description2": "Você não deve incluir outras atividades como leitura, fala ou escrita.",
+    "currentTotal": "Total Atual de Horas Externas: <strong>{{hours}}</strong>.",
+    "levelLabel": "Seu Nível Atual",
+    "minutesLabel": "Minutos Adicionais",
+    "minutesPlaceholder": "Digite os minutos adicionais gastos aprendendo...",
+    "minutesDisabledPlaceholder": "Desabilitado quando o nível é selecionado",
+    "descriptionLabel": "Descrição",
+    "descriptionPlaceholder": "Digite uma breve descrição da atividade...",
+    "descriptionLevelPlaceholder": "Descreva o que você fez para alcançar este nível...",
+    "requiredFields": "Campos obrigatórios",
+    "addButton": "Adicionar Horas Externas",
+    "adding": "Adicionando...",
+    "selectedLevelAdds": "Nível selecionado adiciona: <strong>{{hours}} horas</strong>",
+    "totalToAdd": "Total a adicionar: <strong>{{hours}} horas e {{minutes}} minutos</strong>",
+    "cannotExceed": "Não pode exceder 3.000 horas totais. Você só pode adicionar mais {{hours}} horas e {{minutes}} minutos.",
+    "successTitle": "Adicionado com Sucesso!",
+    "successMessage": "Adicionado <strong>{{time}}</strong> às suas horas externas",
+    "newTotal": "Novo total: <strong>{{total}}</strong>",
+    "levels": {
+      "select": "Selecione um nível (opcional)",
+      "a0": "A0 Iniciante Absoluto (0 horas)",
+      "a1": "A1 Iniciante (5 horas)",
+      "a2": "A2 Iniciante Superior (50 horas)",
+      "b1": "B1 Intermediário (400 horas)",
+      "b2": "B2 Intermediário Superior (800 horas)"
+    }
+  }
+}

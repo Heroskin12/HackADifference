@@ -1,0 +1,48 @@
+{
+  "title": "ユーザー情報",
+  "subtitle": "現在のユーザー情報を表示し、日々の進捗目標を設定します。",
+  "welcomeBack": "おかえりなさい",
+  "yourName": "お名前：",
+  "yourEmail": "メールアドレス：",
+  "notAuthenticated": "ユーザーが認証されていません。",
+  "loginMessage": "プロフィール情報とデータを表示するにはログインしてください。日々の目標は変更できますが、毎日深夜に進捗データと共にリセットされます。",
+  "progressGoal": {
+    "title": "進捗",
+    "watchedToday": "今日は<strong>{{minutes}}</strong>分視聴しました。",
+    "currentGoal": "現在の目標：<strong>{{goal}}</strong>分。",
+    "setGoalTitle": "日々の目標を設定",
+    "setGoalDescription": "日々の目標は、理解可能インプット動画の視聴に費やした時間を測定します。これは毎日リセットされます。",
+    "saveGoal": "目標を保存",
+    "guestAlert": "ゲストユーザーの目標が保存されました！"
+  },
+  "outsideHours": {
+    "title": "営業時間外",
+    "subtitle": "EnglishSpongeの外で学習した時間を記録します。",
+    "currentTotal": "現在の総計：<strong>{{hours}}</strong>",
+    "levelLabel": "レベル",
+    "minutesLabel": "分数",
+    "minutesPlaceholder": "分数を入力...",
+    "minutesDisabledPlaceholder": "選択されたレベルに基づく自動",
+    "descriptionLabel": "アクティビティの説明",
+    "descriptionPlaceholder": "何をしましたか？",
+    "descriptionLevelPlaceholder": "選択されたレベルの学習活動",
+    "requiredFields": "必須フィールド",
+    "addTime": "時間を追加",
+    "addButton": "時間外学習を追加",
+    "adding": "追加中...",
+    "addingTime": "時間を追加中...",
+    "success": "時間が正常に追加されました！最後に追加された時間：{{minutes}}分",
+    "autoCalculated": "選択されたレベル{{level}}に基づいて{{minutes}}分が自動的に計算されました",
+    "cannotExceed": "合計3,000時間を超えることはできません。あと{{hours}}時間{{minutes}}分しか追加できません。",
+    "levels": {
+      "select": "レベルを選択...",
+      "a0": "A0 - 完全初心者",
+      "a1": "A1 - 初心者",
+      "a2": "A2 - 初級",
+      "b1": "B1 - 中級下位",
+      "b2": "B2 - 中級上位",
+      "c1": "C1 - 上級",
+      "c2": "C2 - 熟練者"
+    }
+  }
+}

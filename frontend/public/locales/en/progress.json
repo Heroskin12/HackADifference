@@ -1,0 +1,64 @@
+{
+  "title": "Your Progress",
+  "loading": "Loading...",
+  "cards": {
+    "currentLevel": {
+      "title": "Current Level",
+      "nextLevel": "Next level in",
+      "maxLevel": "You have reached the maximum level."
+    },
+    "totalWatchTime": {
+      "title": "Total Watch Time",
+      "thisWeek": "this week.",
+      "outsideHours": "Outside Hours Logged:"
+    },
+    "videosWatched": {
+      "title": "Videos Watched",
+      "thisWeek": "videos this week"
+    },
+    "avgDailyTime": {
+      "title": "Avg. Daily Time",
+      "inLast": "in the last",
+      "days": "days"
+    }
+  },
+  "timeLabels": {
+    "min": "min",
+    "mins": "mins",
+    "hrs": "hrs"
+  },
+  "errors": {
+    "fetchOutsideHours": "Failed to fetch outside hours:"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "You have no recent activity to show. Once you start using the website, check back to see more data here. Check back soon!"
+  },
+  "charts": {
+    "watchTimeByCategory": "Watch time by category",
+    "categoryDescription": "Track your favorite categories and see what you end up watching the most.",
+    "dailyWatchTime": "Daily watch time",
+    "noData": "Once you start watching content, new data will appear here. Check back soon!"
+  },
+  "timeline": {
+    "titleStandalone": "Timeline",
+    "description": "Here you can see a description of what it takes to achieve each level on EnglishSponge."
+  },
+  "activity": {
+    "watched": "Watched",
+    "promotedTo": "Promoted to {{level}}",
+    "levelUp": "Level up!",
+    "loggedOutsideHours": "Logged Outside Hours",
+    "outsideHoursAdded": "Outside hours added.",
+    "videoRemoved": "This video has been removed.",
+    "levelRemoved": "This level has been removed.",
+    "justNow": "just now",
+    "seeMore": "See More",
+    "timeUnits": {
+      "minute": "minute",
+      "minutes": "minutes",
+      "hour": "hour",
+      "hours": "hours"
+    }
+  }
+}

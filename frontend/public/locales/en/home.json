@@ -1,0 +1,31 @@
+{
+  "header": {
+    "latestVideos": "Latest Videos"
+  },
+  "search": {
+    "placeholder": "Search..."
+  },
+  "progress": {
+    "todaysScore": "Today's Score:",
+    "mins": "mins"
+  },
+  "filters": {
+    "topic": "Topic",
+    "accent": "Accent",
+    "level": "Level",
+    "guide": "Guide",
+    "length": "Length",
+    "grammar_area": "Grammar"
+  },
+  "tabs": {
+    "videos": "Videos",
+    "series": "Series"
+  },
+  "loading": {
+    "loadingVideos": "Loading videos...",
+    "error": "Error loading content"
+  },
+  "video": {
+    "locked": "Locked"
+  }
+}

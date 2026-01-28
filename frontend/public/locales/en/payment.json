@@ -1,0 +1,5 @@
+{
+  "issueDetected": "Payment Issue Detected",
+  "defaultMessage": "There's an issue with your subscription. Please update your payment information.",
+  "fixPayment": "Fix Payment"
+}

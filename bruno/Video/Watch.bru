@@ -1,0 +1,15 @@
+meta {
+  name: Watch
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{host}}/api/video/watch?v=25
+  body: none
+  auth: inherit
+}
+
+params:query {
+  v: 25
+}

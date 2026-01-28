@@ -1,0 +1,19 @@
+meta {
+  name: Signup
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{host}}/api/auth/signup
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Ayush Goyal",
+    "email": "ayushgoyalpro@gmail.com",
+    "password": "thisisp"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "modal": {
+    "howItFeels": "Cómo se siente estar en este nivel:",
+    "whatToDo": "Lo que necesitas hacer en este nivel:",
+    "whatYouLearn": "Lo que aprenderás en este nivel:",
+    "keySkills": "Habilidades clave:",
+    "requirements": "Requisitos para alcanzar este nivel:"
+  },
+  "levels": {
+    "A0 Absolute Beginner": {
+      "title": "A0 - Principiante Absoluto",
+      "timeRange": "0-2 horas",
+      "description": "Comenzando tu viaje del inglés desde el principio.",
+      "howItFeels": "El inglés te suena completamente extraño. Nada se siente o suena familiar a tus oídos. No tienes confianza ni siquiera con las palabras más básicas como I, you, he, she. Incluso frases simples como \"How are you\" no te son familiares.",
+      "whatToDo": "¡Lo único que necesitas hacer ahora es escuchar! Los videos A0 en Englishsponge han sido diseñados para estudiantes que no saben absolutamente nada de inglés, así que mira estos videos por un par de horas hasta que alcances el nivel A1. Estos videos A0 usan muchas imágenes y gestos para que puedas entenderlos sin saber inglés.\\n\\nNO recomendamos que comiences a hablar, leer o escribir en esta etapa.\\n\\nVale la pena mencionar que muchos estudiantes ya han alcanzado un nivel A1 principiante por lo que aprendieron en la escuela de niños. Si los videos A0 principiante te parecen muy fáciles, está bien que saltes al nivel A1 principiante.",
+      "whatYouLearn": "En este nivel aprendes palabras básicas como I, you, he y she. También aprendes los verbos más fundamentales como want, like, have y otros. Finalmente, también aprenderás algunos sustantivos básicos en esta etapa como algunos colores (blue, yellow, red), los nombres de algunas comidas (pizza, bread, milk) y los nombres de algunos animales (dog, cat, fish).",
+      "requirements": [
+        "Aprender saludos básicos y presentaciones",
+        "Dominar el alfabeto inglés y los números",
+        "Entender el presente simple",
+        "Construir vocabulario de más de 300 palabras comunes",
+        "Completar ejercicios básicos de comprensión auditiva"
+      ],
+      "skills": "Comunicación básica, vocabulario simple, comprensión del presente"
+    },
+    "A1 Beginner": {
+      "title": "A1 - Principiante",
+      "timeRange": "2-50 horas",
+      "description": "Construyendo habilidades fundamentales de comunicación en inglés.",
+      "howItFeels": "Como principiante A1 has aprendido algunas palabras básicas, pero no entiendes cómo formar oraciones completas. Todo el idioma aún parece muy nuevo y extraño para ti. Ahora conocerás algunas frases clave como \"how are you?\" y \"what is your name?\" pero no puedes entender una conversación más allá de este punto.",
+      "whatToDo": "¡Lo único que necesitas hacer ahora es escuchar! Los videos A1 principiante en Englishsponge han sido diseñados para que puedas escuchar y aprender vocabulario de ellos incluso como principiante. Aquí aprenderás tus primeras 200-500 palabras escuchando - aprenderlas escuchando asegura que aprendas la pronunciación correcta de estas palabras comunes y fundamentales.\\n\\nAquí, la mayoría de estudiantes tratan de memorizar los colores, números, animales y comidas, etc. Esto está mal (y es aburrido). En su lugar, solo mira nuestros videos A1 principiante y aprenderás todas estas cosas naturalmente mientras aparecen en los videos.\\n\\nNO recomendamos que comiences a hablar, leer o escribir en esta etapa.",
+      "whatYouLearn": "En el nivel A1 principiante aprenderás verbos básicos como: see, go, drink, eat y bring. También aprenderás algunos sustantivos básicos como table, pen, cup y tree. Aprenderás adjetivos básicos como: happy, sad, hot y cold.\\n\\nLas \"palabras funcionales\", como him, her, about, from, to y with aún te confundirán en esta etapa. Esto es completamente normal.",
+      "requirements": [
+        "Participar en conversaciones simples",
+        "Usar tiempos pasado y futuro correctamente",
+        "Expandir vocabulario a más de 800 palabras",
+        "Leer textos simples e historias",
+        "Escribir oraciones y párrafos básicos"
+      ],
+      "skills": "Conversaciones simples, tiempos básicos, vocabulario expandido"
+    },
+    "A2 Upper Beginner": {
+      "title": "A2 - Principiante Superior",
+      "timeRange": "50-250 horas",
+      "description": "Desarrollando habilidades de comunicación más confiadas.",
+      "howItFeels": "Como principiante A2 ahora estás bastante familiarizado con algunas de las palabras más comunes en inglés. Entiendes cómodamente verbos básicos como want, see, watch, eat, drink y run. Ahora estás algo familiarizado con cómo suena el idioma inglés, y has construido un vocabulario de alrededor de 200-500 palabras que conoces bien y otras 500 más o menos que entiendes vagamente.\\n\\nYa no te sientes como un completo principiante, pero probablemente aún no te sientes confiado entendiendo inglés. Eso es perfectamente normal.",
+      "whatToDo": "¡Lo único que necesitas hacer ahora es escuchar! En Englishsponge, puedes ver cientos de videos diseñados para estudiantes A2 principiantes superiores. Todo lo que necesitas hacer es verlos, y construir tu vocabulario viendo input comprensible. Al aprender inglés de esta manera, estás construyendo una base fantástica de buena pronunciación e inglés que suena natural.\\n\\nNO recomendamos que comiences a hablar, leer o escribir en esta etapa.\\n\\nComenzar a aprender nuevo vocabulario leyendo en este nivel es completamente innecesario ya que todo el vocabulario principiante puede aprenderse escuchando, y aprender leyendo interferirá con los hábitos de buena pronunciación.",
+      "whatYouLearn": "Continuarás construyendo tu vocabulario viendo videos de input comprensible hasta que hayas aprendido aproximadamente 1500-2500 palabras en inglés.\\n\\nAprenderás el futuro simple y pasado simple en esta etapa - no estudiando gramática, sino viendo videos.\\n\\nLas \"palabras funcionales\", como him, her, about, from, to y with aún te confundirán en esta etapa. Esto es completamente normal.",
+      "requirements": [
+        "Manejar tareas rutinarias y situaciones sociales",
+        "Usar tiempos condicionales y perfectos",
+        "Dominar más de 1500 palabras de vocabulario",
+        "Entender conversaciones más largas",
+        "Escribir textos cortos coherentes"
+      ],
+      "skills": "Comunicación rutinaria, tiempos complejos, vocabulario intermedio"
+    },
+    "B1 Intermediate": {
+      "title": "B1 - Intermedio",
+      "timeRange": "250-400 horas",
+      "description": "Logrando independencia funcional en inglés.",
+      "howItFeels": "¡Buen trabajo! ¡Oficialmente eres un estudiante de inglés intermedio!\\n\\nAhora que eres un estudiante B1 de inglés has construido una base sólida del inglés y probablemente estés comenzando a sentir algo de confianza al interactuar con el idioma. Puedes encontrar que escuchar inglés ha comenzado a volverse un poco más disfrutable ya que ahora puedes entender temas ligeramente más complejos.\\n\\nPara muchos, B1 es el nivel \"mágico\" donde comienzan a sentirse más cómodos con el inglés y escuchar ya no se siente como tanto trabajo duro para tu cerebro.",
+      "whatToDo": "Lo principal que necesitas hacer como estudiante B1 de inglés es seguir escuchando videos de input comprensible en el nivel B1. Esto debería continuar siendo tu máxima prioridad por encima de todo lo demás.\\n\\nEn esta etapa puedes comenzar a hablar si deseas. Por supuesto, aún se sentirá difícil cuando comiences a hablar por primera vez. Sin embargo, te podrías sorprender de qué tan rápido aprendes a hablar inglés porque ya tienes tanto vocabulario en tu cabeza que entiendes por escuchar tanto input comprensible.",
+      "whatYouLearn": "Continuarás construyendo tu vocabulario más y más mientras continúes viendo videos de input comprensible. Para alcanzar el nivel B2, necesitarás construir un vocabulario de aproximadamente 4000 palabras en inglés.\\n\\nMejorarás tu comprensión del presente perfecto y el pasado simple en este nivel y comenzarás a aprender sobre algunas estructuras gramaticales ligeramente más avanzadas.",
+      "requirements": [
+        "Discutir temas abstractos y opiniones",
+        "Usar todas las estructuras gramaticales principales",
+        "Dominar más de 3000 palabras de vocabulario",
+        "Seguir presentaciones detalladas",
+        "Escribir ensayos e informes estructurados"
+      ],
+      "skills": "Discusiones abstractas, gramática avanzada, vocabulario extenso"
+    },
+    "B1.5 Upper-Intermediate": {
+      "title": "B1.5 - Intermedio",
+      "timeRange": "400-600 horas",
+      "description": "Cerrando la brecha entre intermedio y avanzado en inglés.",
+      "howItFeels": "Bien, ahora estamos en el punto medio entre los niveles B1 Intermedio y B2 intermedio superior.\\n\\nTu confianza y comodidad con el inglés se habrán desarrollado sustancialmente para ahora. Aún no estarás 100% cómodo con el inglés, pero si alguien te pregunta: \"¿Sabes inglés?\" Empiezas a sentirte confiado diciendo \"Sí, sé inglés\".",
+      "whatToDo": "Continuarás construyendo tu vocabulario más y más mientras continúes viendo videos de input comprensible. Para alcanzar el nivel B2, necesitarás construir un vocabulario de aproximadamente 4000 palabras en inglés.\\n\\nTu prioridad principal en este nivel debería ser seguir viendo mucho input comprensible en el nivel B1, hasta que puedas entender los videos de nivel B2 en Englishsponge.",
+      "whatYouLearn": "Continuarás trabajando hacia las aproximadamente 4000 palabras en inglés que necesitarás para alcanzar el nivel B2. Viendo cantidades masivas de input comprensible tu vocabulario aumentará con el tiempo.\\n\\nComenzarás a sentirte cómodo con algunos tiempos más avanzados como el pasado perfecto o el 2do condicional.",
+      "requirements": [
+        "Manejar conversaciones complejas con confianza",
+        "Entender la mayoría de programas de TV y películas",
+        "Expandir vocabulario a más de 5000 palabras",
+        "Usar estructuras gramaticales avanzadas naturalmente",
+        "Leer textos de nivel intermedio fluidamente"
+      ],
+      "skills": "Conversaciones complejas, uso natural de gramática, vocabulario extenso"
+    },
+    "B2 Upper-Intermediate": {
+      "title": "B2 - Intermedio Superior",
+      "timeRange": "600-1000 horas",
+      "description": "Dominando inglés avanzado para uso profesional.",
+      "howItFeels": "¡Felicitaciones! ¡Has llegado al nivel B2 intermedio superior! Ahora eres un estudiante competente de inglés. Sentirás como si finalmente pudieras usar el idioma de verdad.\\n\\nEn esta etapa, a menudo podrás entender a un hablante nativo de inglés hablándote a casi velocidad completa. Aunque escuchar conversaciones entre 2 o más hablantes nativos de inglés aún será un desafío.",
+      "whatToDo": "Primero y principalmente, necesitas seguir escuchando cantidades masivas de input comprensible en el nivel B2, especialmente en las primeras etapas.\\n\\nNuestros videos B2 de EnglishSponge están diseñados para ayudarte a cerrar la brecha entre contenido hecho para estudiantes y contenido normal de inglés hecho para hablantes nativos.",
+      "whatYouLearn": "Continuarás trabajando hacia las aproximadamente 8000 palabras en inglés que necesitarás para alcanzar el nivel C1. Aprenderás esto continuando viendo input comprensible de EnglishSponge así como medios nativos como series de TV.\\n\\nComenzarás a sentirte confiado con estructuras gramaticales más avanzadas como el 3er condicional y el futuro perfecto.",
+      "requirements": [
+        "Participar en debates y negociaciones complejas",
+        "Usar gramática sofisticada naturalmente",
+        "Dominar más de 5000 palabras de vocabulario",
+        "Entender conversaciones a velocidad nativa",
+        "Escribir documentos profesionales"
+      ],
+      "skills": "Comunicación compleja, uso natural de gramática, vocabulario profesional"
+    },
+    "C1 Advanced": {
+      "title": "C1 - Avanzado",
+      "timeRange": "1000+ horas",
+      "description": "Logrando competencia casi nativa en inglés.",
+      "howItFeels": "¡Increíble! Has alcanzado un nivel que la mayoría de estudiantes de inglés nunca alcanzarán. Este es un logro fantástico y probablemente tomó mucha práctica. ¡Excelente trabajo!\\n\\nAhora puedes entender todo tipo de medios nativos: películas, programas de TV, noticias, videos de Youtube y demás. Por supuesto, aún ocasionalmente te encontrarás con vocabulario que no entiendes, pero en su mayor parte generalmente puedes entender lo que está pasando en la mayoría de formas de medios nativos.",
+      "whatToDo": "Continúa escuchando cantidades masivas de input comprensible tanto escuchando como leyendo.\\n\\nLos videos B2 de EnglishSponge serán muy fáciles para ti en esta etapa. Sin embargo, puede haber mucho beneficio de a veces escuchar contenido que está debajo de tu nivel, ya que te permite enfocarte más en los detalles más finos del idioma.",
+      "whatYouLearn": "En este nivel, continuarás aumentando el rango de verbos frasales e idioms que puedes usar. También aprenderás más y más vocabulario específico de temas (ej. vocabulario sobre marketing, navegación, fútbol, etc.).\\n\\nComenzarás a sentirte más cómodo con ciertos tipos de jerga.\\n\\nFinalmente comenzarás a dominar muchas de las palabras funcionales que te han estado confundiendo todo este tiempo.",
+      "requirements": [
+        "Participar en discusiones académicas sofisticadas",
+        "Entender textos complejos y literatura",
+        "Dominar más de 8000 palabras de vocabulario",
+        "Usar el idioma con fluidez casi nativa",
+        "Escribir documentos profesionales y académicos"
+      ],
+      "skills": "Fluidez casi nativa, expresión sofisticada, comprensión cultural"
+    }
+  }
+}

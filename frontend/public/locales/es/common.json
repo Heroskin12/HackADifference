@@ -1,0 +1,55 @@
+{
+  "welcomeBack": "Bienvenido de nuevo",
+  "buttons": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "signup": "Registrarse"
+  },
+  "navigation": {
+    "language": "Idioma",
+    "home": "Inicio",
+    "progress": "Progreso",
+    "user": "Usuario",
+    "settings": "Configuración",
+    "about": "Acerca de",
+    "logout": "Cerrar Sesión"
+  },
+  "user": {
+    "welcomeBack": "Bienvenido de nuevo",
+    "premiumMember": "Miembro Premium"
+  },
+  "logo": {
+    "welcomeTo": "Bienvenido a",
+    "englishSponge": "EnglishSponge!",
+    "englishSpongeShort": "EnglishSponge"
+  },
+  "auth": {
+    "mustLoginProgress": "¡Debes iniciar sesión para rastrear tu progreso!",
+    "mustLoginSettings": "¡Debes iniciar sesión para ver la configuración de la cuenta!"
+  },
+  "logout": {
+    "title": "Cerrar Sesión",
+    "message": "Has cerrado sesión."
+  },
+  "loading": {
+    "userDetails": "Cargando detalles del usuario..."
+  },
+  "subscribeModal": {
+    "title": "¡Únete a EnglishSponge Premium!",
+    "description": "¡Obtén acceso completo a todos los videos premium de EnglishSponge!",
+    "loading": "Cargando...",
+    "error": "Error",
+    "subscribeNow": "Únete Ahora",
+    "cancel": "Ahora No"
+  },
+  "paymentSuccess": {
+    "title": "¡Felicidades, ahora estás suscrito a EnglishSponge!",
+    "description": "Disfruta de acceso ilimitado a todo el contenido premium.",
+    "startWatching": "¡Empezar a ver!"
+  },
+  "paymentFail": {
+    "title": "Algo salió mal",
+    "description": "Hubo un error al procesar tu transacción. Por favor, inténtalo de nuevo.",
+    "cancel": "Cancelar"
+  }
+}

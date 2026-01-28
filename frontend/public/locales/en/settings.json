@@ -1,0 +1,53 @@
+{
+  "title": "Settings",
+  "subtitle": "Change the settings you want below and click submit!",
+  "loading": "Loading...",
+  "deleteAccount": "Delete Account?",
+  "accordion": {
+    "changeName": "Change Name",
+    "changePassword": "Change Password",
+    "changeEmail": "Change Email",
+    "manageMembership": "Manage Membership"
+  },
+  "forms": {
+    "confirmChanges": "Confirm Changes",
+    "changeName": {
+      "label": "Your Name",
+      "success": "Name was changed successfully!",
+      "failed": "Failed to change name.",
+      "unexpected": "An unexpected error occurred. Please try again.",
+      "allFieldsRequired": "All fields are required.",
+      "differentName": "Please enter a different name than your current one."
+    },
+    "changePassword": {
+      "currentPassword": "Current Password",
+      "newPassword": "Your New Password",
+      "confirmPassword": "Confirm Your New Password",
+      "show": "Show",
+      "hide": "Hide",
+      "requirements": "Please note:\nYour password must meet the following requirements:\n- Be between 8 and 12 characters long.\n- Include at least one uppercase letter.\n- Include at least one number.\n- Include at least one special character (@, $, !, %, *, ?, &)."
+    },
+    "changeEmail": {
+      "label": "Your Email",
+      "otpSent": "We have sent an OTP code to your inbox. Please check and type the code below.",
+      "verified": "Verified",
+      "verifyEmail": "Verify Email"
+    }
+  },
+  "membership": {
+    "description": "Here you can manage your membership details, payment methods and more.",
+    "stripeNote": "* Please note, clicking the button below will navigate you to the Stripe payment portal.",
+    "currentPlan": "Current Plan: {{plan}}",
+    "free": "Free",
+    "premium": "Premium",
+    "freeDescription": "You are currently on the Free plan. As a result, certain videos and series will be locked. Click below to upgrade and access everything EnglishSponge has to offer.",
+    "upgradeToPremium": "Upgrade to Premium",
+    "premiumDescription": "You are currently on the Premium plan. Enjoy unlimited access to all videos and series. Click below to manage your membership.",
+    "manageMembership": "Manage Membership"
+  },
+  "deleteAccountModal": {
+    "title": "Are you sure you want to delete your account?",
+    "warning": "Warning: This action cannot be undone. All time-tracking data will be lost.",
+    "confirmButton": "Confirm Deletion"
+  }
+}

@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: backend
+  jpa:
+    open-in-view: false
+    show-sql: false
+
+videos-per-page: 100
+
+filter:
+  tables: accent, guide, length, level, topic, grammar_area
+
+logging:
+  level:
+    org.hibernate.SQL: OFF
+    org.hibernate.type.descriptor.sql.BasicBinder: OFF
+    org.hibernate.orm.jdbc.bind: OFF
+    org.hibernate.orm.jdbc.extract: OFF
+    org.hibernate: WARN
+    org.springframework: WARN
+    com.zaxxer: WARN
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, beans
+
+cookie.name: esjwt
+
+delivery:
+  cdn: https://englishsponge.ayushgoyalpro.workers.dev/

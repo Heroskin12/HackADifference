@@ -1,0 +1,33 @@
+{
+  "header": {
+    "latestVideos": "最新の動画",
+    "filters": "フィルター",
+    "filterBy": "フィルター："
+  },
+  "progress": {
+    "todaysScore": "今日のスコア",
+    "goalProgress": "目標進捗："
+  },
+  "videoGrid": {
+    "noResults": "結果が見つかりません",
+    "tryDifferent": "別の検索語句を試してください"
+  },
+  "filters": {
+    "topic": "Topic",
+    "accent": "Accent",
+    "level": "Level",
+    "guide": "Guide",
+    "length": "Length",
+    "grammar_area": "Grammar"
+  },
+  "tabs": {
+    "videos": "動画",
+    "series": "シリーズ"
+  },
+  "search": {
+    "placeholder": "検索..."
+  },
+  "video": {
+    "locked": "ロック済み"
+  }
+}

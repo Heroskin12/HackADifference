@@ -1,0 +1,27 @@
+meta {
+  name: Create Checkout Session
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{host}}/api/payment/ccs?priceId=2&cbu=https://englishsponge.com
+  body: none
+  auth: inherit
+}
+
+params:query {
+  priceId: 2
+  cbu: https://englishsponge.com
+}
+
+body:json {
+  {
+    "priceId": 2
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

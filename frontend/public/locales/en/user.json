@@ -1,0 +1,48 @@
+{
+  "title": "User Information",
+  "subtitle": "View your current user information and set your daily progress goal.",
+  "welcomeBack": "Welcome back",
+  "yourName": "Your Name:",
+  "yourEmail": "Your Email:",
+  "notAuthenticated": "User not authenticated.",
+  "loginMessage": "Please log in to view your profile information and data. You can still alter your daily goal, but this will reset each day at midnight in addition to your progress data.",
+  "progressGoal": {
+    "title": "Progress",
+    "watchedToday": "You have watched <strong>{{minutes}}</strong> minutes today.",
+    "currentGoal": "Current Goal: <strong>{{goal}}</strong> minutes.",
+    "setGoalTitle": "Set Your Daily Goal",
+    "setGoalDescription": "Your daily goal measures the amount of time you have spent watching our comprehensible input videos. This will reset each day.",
+    "saveGoal": "Save Goal",
+    "guestAlert": "Goal saved for guest user!"
+  },
+  "outsideHours": {
+    "title": "Outside Hours",
+    "description1": "Here you can add the amount of time you have spent listening to other English comprehensible input resources outside of EnglishSponge.",
+    "description2": "You should not include other activities like reading, speaking or writing.",
+    "currentTotal": "Current Total of Outside Hours: <strong>{{hours}}</strong>.",
+    "levelLabel": "Your Current Level",
+    "minutesLabel": "Additional Minutes",
+    "minutesPlaceholder": "Enter additional minutes spent learning...",
+    "minutesDisabledPlaceholder": "Disabled when level is selected",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Enter a brief description of the activity...",
+    "descriptionLevelPlaceholder": "Describe what you did to achieve this level...",
+    "requiredFields": "Required fields",
+    "addButton": "Add Outside Hours",
+    "adding": "Adding...",
+    "selectedLevelAdds": "Selected level adds: <strong>{{hours}} hours</strong>",
+    "totalToAdd": "Total to add: <strong>{{hours}} hours and {{minutes}} minutes</strong>",
+    "cannotExceed": "Cannot exceed 3,000 total hours. You can only add {{hours}} hours and {{minutes}} minutes more.",
+    "successTitle": "Successfully Added!",
+    "successMessage": "Added <strong>{{time}}</strong> to your outside hours",
+    "newTotal": "New total: <strong>{{total}}</strong>",
+    "levels": {
+      "select": "Select a level (optional)",
+      "a0": "A0 Absolute Beginner (0 hours)",
+      "a1": "A1 Beginner (5 hours)",
+      "a2": "A2 Upper Beginner (50 hours)",
+      "b1": "B1 Intermediate (400 hours)",
+      "b2": "B2 Upper Intermediate (800 hours)"
+    }
+  }
+}

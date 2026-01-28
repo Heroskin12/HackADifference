@@ -1,0 +1,215 @@
+{
+  "title": "進捗",
+  "loading": "読み込み中...",
+  "subtitle": "英語学習の旅を追跡する",
+  "cards": {
+    "currentLevel": {
+      "title": "現在のレベル",
+      "nextLevel": "次のレベルまで",
+      "maxLevel": "最高レベルに到達しました。"
+    },
+    "totalWatchTime": {
+      "title": "総視聴時間",
+      "thisWeek": "今週。",
+      "outsideHours": "営業時間外ログ："
+    },
+    "videosWatched": {
+      "title": "視聴した動画",
+      "thisWeek": "今週の動画"
+    },
+    "avgDailyTime": {
+      "title": "1日平均時間",
+      "inLast": "過去",
+      "days": "日間"
+    }
+  },
+  "timeLabels": {
+    "min": "分",
+    "mins": "分",
+    "hrs": "時間"
+  },
+  "errors": {
+    "fetchOutsideHours": "営業時間外の取得に失敗しました："
+  },
+  "overview": {
+    "title": "概要",
+    "totalTime": "総学習時間",
+    "videosWatched": "視聴した動画",
+    "currentStreak": "現在の連続記録",
+    "longestStreak": "最長連続記録",
+    "averageDaily": "1日平均",
+    "weeklyGoal": "週間目標",
+    "monthlyGoal": "月間目標"
+  },
+  "charts": {
+    "title": "進捗チャート",
+    "watchTimeByCategory": "カテゴリ別視聴時間",
+    "categoryDescription": "お気に入りのカテゴリを追跡し、最も多く視聴しているものを確認しましょう。",
+    "dailyWatchTime": "日別視聴時間",
+    "noData": "コンテンツを視聴し始めると、新しいデータがここに表示されます。すぐに戻ってきてください！",
+    "studyTime": {
+      "title": "学習時間",
+      "subtitle": "時間経過に伴う学習分数",
+      "daily": "日別",
+      "weekly": "週別",
+      "monthly": "月別"
+    },
+    "videosCompleted": {
+      "title": "完了した動画",
+      "subtitle": "期間別視聴動画数"
+    },
+    "levelProgress": {
+      "title": "レベル別進捗",
+      "subtitle": "難易度別の時間配分",
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    }
+  },
+  "timeline": {
+    "title": "成果のタイムライン",
+    "titleStandalone": "タイムライン",
+    "description": "ここでは、EnglishSpongeの各レベルを達成するために必要なことの説明を見ることができます。",
+    "subtitle": "学習の旅の重要なマイルストーン",
+    "achievements": {
+      "firstVideo": "最初の動画視聴",
+      "firstHour": "最初の1時間学習",
+      "firstWeek": "最初の1週間完了",
+      "first10Videos": "10本の動画視聴",
+      "first50Videos": "50本の動画視聴",
+      "first100Videos": "100本の動画視聴",
+      "weekStreak": "1週間連続",
+      "monthStreak": "1ヶ月連続",
+      "levelUp": "{{level}}にレベルアップ",
+      "goalAchieved": "{{minutes}}分目標達成"
+    }
+  },
+  "recentActivity": {
+    "title": "最近のアクティビティ",
+    "noActivity": "表示する最近のアクティビティがありません。ウェブサイトを使い始めると、ここでより多くのデータを確認できます。すぐに戻ってきてください！"
+  },
+  "activity": {
+    "title": "最近のアクティビティ",
+    "subtitle": "過去7日間の学習セッション",
+    "noActivity": "最近のアクティビティなし",
+    "watched": "視聴しました",
+    "promotedTo": "{{level}}に昇格",
+    "levelUp": "レベルアップ！",
+    "loggedOutsideHours": "営業時間外ログ",
+    "outsideHoursAdded": "営業時間外が追加されました。",
+    "videoRemoved": "この動画は削除されました。",
+    "levelRemoved": "このレベルは削除されました。",
+    "justNow": "たった今",
+    "seeMore": "もっと見る",
+    "today": "今日",
+    "yesterday": "昨日",
+    "daysAgo": "{{count}}日前",
+    "daysAgo_plural": "{{count}}日前",
+    "sessionDetails": {
+      "duration": "時間：{{minutes}}分",
+      "videos": "動画：{{count}}本",
+      "level": "レベル：{{level}}"
+    },
+    "timeUnits": {
+      "minute": "分",
+      "minutes": "分",
+      "hour": "時間",
+      "hours": "時間"
+    }
+  },
+  "goals": {
+    "title": "目標",
+    "daily": {
+      "title": "日次目標",
+      "subtitle": "今日{{current}}/{{target}}分",
+      "completed": "日次目標完了！",
+      "remaining": "残り{{minutes}}分"
+    },
+    "weekly": {
+      "title": "週次目標",
+      "subtitle": "今週{{current}}/{{target}}分",
+      "completed": "週次目標完了！",
+      "daysLeft": "残り{{days}}日"
+    },
+    "monthly": {
+      "title": "月次目標",
+      "subtitle": "今月{{current}}/{{target}}分",
+      "completed": "月次目標完了！",
+      "progress": "{{percent}}%完了"
+    }
+  },
+  "badges": {
+    "title": "成果",
+    "subtitle": "獲得したバッジ",
+    "categories": {
+      "time": "学習時間",
+      "consistency": "継続性",
+      "videos": "動画視聴",
+      "levels": "レベル進捗"
+    },
+    "earned": "{{date}}に獲得",
+    "notEarned": "まだ獲得していません",
+    "list": {
+      "firstStep": {
+        "name": "最初の一歩",
+        "description": "最初の動画を視聴しました"
+      },
+      "earlyBird": {
+        "name": "早起き鳥",
+        "description": "朝8時前に学習しました"
+      },
+      "nightOwl": {
+        "name": "夜更かしフクロウ",
+        "description": "夜10時以降に学習しました"
+      },
+      "consistent": {
+        "name": "継続者",
+        "description": "7日連続で学習しました"
+      },
+      "dedicated": {
+        "name": "献身的",
+        "description": "30日連続で学習しました"
+      },
+      "marathon": {
+        "name": "マラソンランナー",
+        "description": "1日に2時間以上学習しました"
+      },
+      "videoLover": {
+        "name": "動画愛好家",
+        "description": "100本の動画を視聴しました"
+      },
+      "levelMaster": {
+        "name": "レベルマスター",
+        "description": "すべての難易度レベルをマスターしました"
+      }
+    }
+  },
+  "streaks": {
+    "title": "連続記録",
+    "current": "現在の連続記録",
+    "longest": "最長連続記録",
+    "description": "連続記録を維持するために毎日学習を続けましょう！",
+    "freezeStreak": "連続記録凍結",
+    "freezeDescription": "連続記録凍結を使用して1日間連続記録を保護",
+    "freezesRemaining": "残り{{count}}回凍結",
+    "freezesRemaining_plural": "残り{{count}}回凍結"
+  },
+  "calendar": {
+    "title": "学習カレンダー",
+    "subtitle": "日々の学習活動を視覚化",
+    "studiedMinutes": "{{minutes}}分学習",
+    "noActivity": "アクティビティなし",
+    "goalMet": "目標達成",
+    "partialProgress": "部分的進捗"
+  },
+  "export": {
+    "title": "データエクスポート",
+    "description": "進捗データをダウンロード",
+    "formats": {
+      "csv": "CSV（Excel）",
+      "json": "JSON",
+      "pdf": "PDFレポート"
+    },
+    "download": "{{format}}をダウンロード"
+  }
+}

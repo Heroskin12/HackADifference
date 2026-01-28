@@ -1,0 +1,54 @@
+{
+  "welcomeBack": "Welcome back",
+  "buttons": {
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Signup"
+  },
+  "navigation": {
+    "language": "Language",
+    "home": "Home",
+    "progress": "Progress",
+    "user": "User",
+    "settings": "Settings",
+    "about": "About",
+    "logout": "Logout"
+  },
+  "user": {
+    "premiumMember": "Premium Member"
+  },
+  "logo": {
+    "welcomeTo": "Welcome to",
+    "englishSponge": "EnglishSponge!",
+    "englishSpongeShort": "EnglishSponge"
+  },
+  "auth": {
+    "mustLoginProgress": "You must be logged in to track your progress!",
+    "mustLoginSettings": "You must be logged in to view account settings!"
+  },
+  "logout": {
+    "title": "Logout",
+    "message": "You have been logged out."
+  },
+  "loading": {
+    "userDetails": "Loading user details..."
+  },
+  "subscribeModal": {
+    "title": "Join EnglishSponge Premium!",
+    "description": "Get full access to all EnglishSponge premium videos!",
+    "loading": "Loading...",
+    "error": "Error",
+    "subscribeNow": "Join Now",
+    "cancel": "Not Right Now"
+  },
+  "paymentSuccess": {
+    "title": "Congratulations, you are now subscribed to EnglishSponge!",
+    "description": "Enjoy unlimited access to all premium content.",
+    "startWatching": "Start watching!"
+  },
+  "paymentFail": {
+    "title": "Something went wrong",
+    "description": "There was an error in processing your transaction. Please try again.",
+    "cancel": "Cancel"
+  }
+}

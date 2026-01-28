@@ -1,0 +1,20 @@
+meta {
+  name: Get Series by ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{host}}/api/series/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 1
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

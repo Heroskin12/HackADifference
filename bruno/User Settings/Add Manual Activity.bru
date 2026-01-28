@@ -1,0 +1,18 @@
+meta {
+  name: Add Manual Activity
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{host}}/api/user/settings/manual
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "minutes": 1200,
+    "description": "class 1"
+  }
+}

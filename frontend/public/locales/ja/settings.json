@@ -1,0 +1,53 @@
+{
+  "title": "設定",
+  "subtitle": "以下で変更したい設定を選択して送信をクリックしてください！",
+  "loading": "読み込み中...",
+  "deleteAccount": "アカウントを削除しますか？",
+  "accordion": {
+    "changeName": "名前変更",
+    "changePassword": "パスワード変更",
+    "changeEmail": "メールアドレス変更",
+    "manageMembership": "メンバーシップ管理"
+  },
+  "forms": {
+    "confirmChanges": "変更を確認",
+    "changeName": {
+      "label": "お名前",
+      "success": "名前が正常に変更されました！",
+      "failed": "名前の変更に失敗しました。",
+      "unexpected": "予期しないエラーが発生しました。再度お試しください。",
+      "allFieldsRequired": "すべてのフィールドは必須です。",
+      "differentName": "現在のものとは異なる名前を入力してください。"
+    },
+    "changePassword": {
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新しいパスワード",
+      "confirmPassword": "新しいパスワードの確認",
+      "show": "表示",
+      "hide": "非表示",
+      "requirements": "注意事項：\\nパスワードは以下の要件を満たす必要があります：\\n- 8文字以上12文字以下\\n- 大文字を最低1文字含む\\n- 数字を最低1文字含む\\n- 特殊文字を最低1文字含む（@、$、!、%、*、?、&）"
+    },
+    "changeEmail": {
+      "label": "メールアドレス",
+      "otpSent": "受信トレイにOTPコードを送信しました。以下にコードを確認して入力してください。",
+      "verified": "認証済み",
+      "verifyEmail": "メール認証"
+    }
+  },
+  "membership": {
+    "description": "こちらでメンバーシップの詳細、支払い方法などを管理できます。",
+    "stripeNote": "* 以下のボタンをクリックすると、Stripeの支払いポータルに移動することにご注意ください。",
+    "currentPlan": "現在のプラン：{{plan}}",
+    "free": "無料",
+    "premium": "プレミアム",
+    "freeDescription": "現在、無料プランをご利用中です。そのため、一部の動画やシリーズがロックされています。以下をクリックしてアップグレードし、EnglishSpongeが提供するすべてのコンテンツにアクセスしてください。",
+    "upgradeToPremium": "プレミアムにアップグレード",
+    "premiumDescription": "現在、プレミアムプランをご利用中です。すべての動画やシリーズへの無制限アクセスをお楽しみください。以下をクリックしてメンバーシップを管理してください。",
+    "manageMembership": "メンバーシップ管理"
+  },
+  "deleteAccountModal": {
+    "title": "本当にアカウントを削除しますか？",
+    "warning": "警告：この操作は元に戻せません。すべての時間追跡データが失われます。",
+    "confirmButton": "削除を確認"
+  }
+}

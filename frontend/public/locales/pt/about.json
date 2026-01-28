@@ -1,0 +1,163 @@
+{
+  "video": {
+    "title": "O Método",
+    "subtitle": "Aprenda sobre a teoria do input compreensível com o fundador do EnglishSponge, James Mcintosh, e como ela alimenta a plataforma. Você pode ler ainda mais abaixo!"
+  },
+  "sections": {
+    "theProblem": "O Problema",
+    "whyTraditionalMethodsFail": "Por que os Métodos Tradicionais Falham",
+    "whatMakesComprehensibleInputDifferent": "O que Torna o Input Compreensível Diferente?",
+    "benefitsOfComprehensibleInput": "Benefícios do Input Compreensível",
+    "howToWatchOurVideos": "Como Assistir Nossos Vídeos",
+    "payAttention": "Prestar Atenção",
+    "dosAndDonts": "O que Fazer e Não Fazer",
+    "frequentlyAskedQuestions": "Perguntas Frequentes"
+  },
+  "theProblem": {
+    "subtitle": "O aprendizado tradicional de idiomas não funciona muito bem.",
+    "paragraph1": "Como é possível que milhões de crianças e adolescentes aprendam inglês por 4 a 8 anos durante o ensino fundamental e médio e depois saiam da escola ainda não conseguindo manter uma conversa com um estranho?",
+    "subtitle2": "Acontece assim:",
+    "paragraph2": "Um jovem estudante passará anos na escola completando exercícios de gramática \"preencher lacunas\", estudando listas de vocabulário e completando unidades em um livro didático. Eles fazem uma prova de inglês e podem até tirar uma boa nota!",
+    "paragraph3": "Então, eles saem da escola. Um estrangeiro se aproxima deles na rua e pergunta: \"Com licença, você tem alguma ideia de onde posso encontrar a agência dos correios mais próxima?\"",
+    "paragraph4": "O jovem estudante fica parado atordoado. Eles tentam falar e dar uma resposta, mas seu cérebro ainda está tentando processar o que este estranho perguntou.",
+    "response": "Eles respondem \"Ah... desculpe. Não inglês, desculpe\".",
+    "paragraph5": "Não inglês? E os 6 anos de aulas de inglês na escola?! Para que serviu todo esse tempo estudando inglês de um livro didático se este jovem estudante não consegue responder uma pergunta básica sobre a agência dos correios mais próxima?"
+  },
+  "whyTraditionalMethodsFail": {
+    "subtitle": "Algo está claramente errado aqui.",
+    "paragraph1": "Agora, nem todo mundo sai da escola ainda não conseguindo usar o inglês adequadamente, mas muitos saem.",
+    "paragraph2": "A razão pela qual o aprendizado tradicional de idiomas é tão ruim é porque eles têm que criar testes sem sentido para dar uma nota aos alunos.",
+    "paragraph3": "Os professores da escola são incrivelmente ocupados e não conseguem tirar tempo para dar a cada aluno da turma um teste completo de conversação e dar uma nota sobre seu verdadeiro nível de compreensão auditiva.",
+    "paragraph4": "É muito mais fácil e muito menos demorado dar aos alunos um teste onde as perguntas têm uma resposta \"certa\" e uma resposta \"errada\".",
+    "paragraph5": "Exercícios de gramática \"preencher lacunas\", questões de \"múltipla escolha\" e outros testes sem sentido como estes não têm absolutamente nada a ver com a verdadeira aquisição de linguagem.",
+    "paragraph6": "Esses testes permitem que os professores rapidamente e facilmente deem ao aluno uma nota de 0 a 10 em seu teste, mas isso não é como um idioma é aprendido.",
+    "paragraph7": "Aqui no EnglishSponge, não temos as mesmas limitações que existem dentro do sistema de educação escolar.",
+    "paragraph8": "Com nosso método, você aprenderá inglês de uma forma eficaz e de uma forma que será agradável para você!",
+    "paragraph9": "Aprender inglês não deveria ser um processo doloroso e chato. E realmente não precisa ser.",
+    "paragraph10": "Deixe-nos explicar o método de input compreensível usado aqui no EnglishSponge."
+  },
+  "comprehensibleInputDifferent": {
+    "subtitle": "Nosso método é baseado na teoria do \"Input Compreensível\", popularizada por Stephen Krashen. Abaixo estão os fundamentos."
+  },
+  "benefitsOfComprehensibleInput": {
+    "paragraph1": "\"Input\" é: Escutar e Ler em inglês.",
+    "paragraph2": "Qualquer conteúdo em inglês que você escute ou leia é \"Input\". Fazer exercícios de gramática, escrever ou falar é \"Output\", não input.",
+    "paragraph3": "Input Compreensível significa que você pode entender o conteúdo ou mensagem geral do que está escutando ou lendo. Isso não significa que você entende cada vocabulário ou ponto gramatical—apenas que você entende a ideia geral.",
+    "importantNote": "É importante que o conteúdo que você escuta ou lê esteja no nível correto para você.",
+    "paragraph4": "Se você é um estudante iniciante de inglês, escutar conteúdo intermediário ou avançado não é um bom uso do seu tempo.",
+    "paragraph5": "É simples: se você é iniciante, escute conteúdo de nível iniciante. Se você é intermediário, escute conteúdo de nível intermediário. Você deve conseguir entender a mensagem geral sem ter que constantemente pausar ou traduzir vocabulário.",
+    "paragraph6": "Se você descobrir que realmente não entende sobre o que é o conteúdo, isso é um sinal de que não é \"compreensível\" para você, e você precisa baixar o nível.",
+    "paragraph7": "Quando você escuta input compreensível, as condições são atendidas para seu cérebro naturalmente adquirir linguagem. Como o novo vocabulário aparece dentro de um contexto (uma história, uma conversa, um monólogo, etc), você aprenderá vocabulário de uma forma mais profunda - uma que é muito mais difícil de esquecer do que memorizar listas ou tabelas abstratas.",
+    "paragraph8": "Com nosso método, a única coisa que você tem que fazer é assistir nossos vídeos.",
+    "paragraph9": "Você não precisa:",
+    "dontNeedList": [
+      "Fazer anotações",
+      "Completar questões de compreensão no final",
+      "Completar exercícios de gramática",
+      "Entender 100% do vídeo",
+      "Se preocupar se não entender absolutamente tudo"
+    ],
+    "paragraph10": "Apenas assistir é suficiente para aprender inglês.",
+    "paragraph11": "Quando você era bebê, você passou os primeiros 12 meses da sua vida apenas escutando sua língua nativa—e aprendeu muito! Você não fez anotações. Você não completou questões de compreensão. Ou fez exercícios de gramática. Você apenas escutou!",
+    "paragraph12": "O método de Input Compreensível que usamos no EnglishSponge imita a forma como uma criança aprende sua língua nativa. Mas este método não funciona apenas para bebês—funciona para adultos de qualquer idade também.",
+    "paragraph13": "Este método é comprovadamente eficaz. Milhares de estudantes já tiveram sucesso usando-o para aprender outros idiomas em sites como DreamingSpanish.com.",
+    "paragraph14": "Mas por alguma razão, nenhum site como este existe para inglês—que é exatamente por que criamos o EnglishSponge.com."
+  },
+  "howToWatchVideos": {
+    "subtitle": "Nossa biblioteca de vídeos está constantemente se expandindo. Continue verificando para mais conteúdo direcionado especificamente para seu nível."
+  },
+  "payAttention": {
+    "paragraph1": "Quando você assiste nossos vídeos, você tem que prestar atenção.",
+    "paragraph2": "Se você está apenas escutando o vídeo passivamente (Ex: Tendo-os tocando no fundo enquanto você navega no seu telefone), você não aprenderá muito.",
+    "paragraph3": "Mas enquanto você estiver prestando atenção ao vídeo, e o vídeo estiver no nível correto para você, você aprenderá inglês apenas assistindo."
+  },
+  "dosAndDonts": {
+    "paragraph1": "Muitos dos nossos vídeos (especialmente os iniciantes) usam muitas dicas visuais (fotos, gestos com as mãos, etc) que tornam fácil para seu cérebro fazer uma conexão profunda entre o novo vocabulário e seu significado.",
+    "paragraph2": "Você deve focar em simplesmente assistir e curtir o vídeo.",
+    "paragraph3": "Você pode ligar as legendas se precisar. Mas idealmente o conteúdo deve ser compreensível sem elas.",
+    "paragraph4": "Você pode traduzir palavras se precisar. Mas idealmente você não deveria estar traduzindo muito enquanto assiste nossos vídeos.",
+    "paragraph5": "Idealmente, você não deveria estar pensando muito. Você deveria apenas estar assistindo e curtindo o vídeo."
+  },
+  "faq": {
+    "subtitle": "Abaixo, fornecemos respostas para algumas perguntas comuns sobre input compreensível.",
+    "learnVocabulary": {
+      "question": "Como você aprende vocabulário apenas assistindo vídeos?",
+      "paragraph1": "A forma que você aprende vocabulário com este método é diferente dos métodos tradicionais de estudo de idiomas.",
+      "paragraph2": "Com nosso método você não tem que memorizar vocabulário ativamente. Em vez disso, você encontrará naturalmente vocabulário novo repetidamente através do processo de assistir nossos vídeos.",
+      "paragraph3": "Deixe-nos dar uma demonstração simples de como funciona a aquisição de vocabulário usando nossos vídeos.",
+      "paragraph4": "Vamos pegar o verbo: arranhar (to scratch).",
+      "paragraph5": "Através de assistir nossos vídeos você encontrará este verbo repetidamente, e cada vez que você escutar o verbo aprenderá um pouco mais.",
+      "paragraph6": "Enquanto assiste um vídeo, você escuta esta frase: \"Se você olhar esta foto, pode ver que o gato está arranhando o sofá\". Esta é sua primeira exposição a esta palavra nova. Você pode ter que usar um tradutor para entender o que este verbo significa na primeira vez.",
+      "paragraph7": "Mais tarde, enquanto assiste outro vídeo, você escuta outra frase: \"Meu cachorro sempre me arranha quando tento acariciá-lo\". Como esta é apenas sua segunda exposição a este verbo, você pode ter que usar um tradutor uma segunda vez para se lembrar do que significa.",
+      "paragraph8": "Então em outro vídeo você escuta \"O tigre tem garras que pode usar para arranhar você\". Agora você escutou este verbo 3 vezes em 3 contextos diferentes. Desta vez, você pode saber o que significa imediatamente sem ter que usar um tradutor.",
+      "paragraph9": "Então pela quarta vez, você escuta \"Eu arranho meu rosto quando estou nervoso\". Desta vez, você imediatamente sabe o que significa.",
+      "paragraph10": "Então uma quinta vez, você escuta \"Eu estive arranhando minha perna o dia todo porque está muito coçando\". Ao escutar este verbo pela quinta vez, isso solidifica ainda mais seu entendimento da palavra.",
+      "paragraph11": "E aí está, você aprendeu um novo verbo: arranhar.",
+      "paragraph12": "Em nenhum momento você estudou ou memorizou este vocabulário. Você o aprendeu simplesmente assistindo vídeos! Não apenas isso, mas se o verbo foi usado junto com uma dica visual como uma imagem, você nem precisaria ter usado um tradutor! É possível aprender o novo vocabulário apenas através da escuta.",
+      "paragraph13": "E não é apenas possível aprender vocabulário assim, também é mais eficaz. Aprender vocabulário através de input compreensível significa que novo vocabulário está ligado a um contexto específico em sua mente, o que significa que este novo vocabulário foi aprendido de forma profunda. Depois de aprender vocabulário através de input compreensível, geralmente não é esquecido.",
+      "paragraph14": "Então, quando você eventualmente começar a falar inglês, descobrirá que o vocabulário que precisa aparece em sua mente como mágica. Você terá as palavras que precisa para se expressar, mas frequentemente não terá ideia de como ou quando as aprendeu!",
+      "paragraph15": "E finalmente, como você aprendeu o novo vocabulário através da escuta e não lendo na página, também saberá como pronunciá-lo corretamente.",
+      "paragraph16": "O que nos leva ao próximo grande benefício de aprender através de input compreensível."
+    },
+    "pronunciation": {
+      "question": "E quanto à Pronúncia?",
+      "paragraph1": "Embora input compreensível possa ser usado para aprender mais ou menos qualquer idioma, é especialmente útil para aprender inglês. Por quê? Por causa da pronúncia.",
+      "paragraph2": "Veja, inglês não é um idioma fonético. Isso significa que quando você vê uma palavra escrita, não é óbvio como deveria ser pronunciada.",
+      "paragraph3": "Apenas pegue estes exemplos clássicos:",
+      "examples1": ["Though", "Through", "Throughout", "Tough", "Thorough"],
+      "paragraph4": "Na verdade, em inglês você pode até ter palavras com grafia idêntica mas pronúncia diferente:",
+      "examples2": ["I want to live in Spain", "This is a live recording"],
+      "paragraph5": "Quando um estudante de inglês lê muito—especialmente cedo, como fazem nas escolas—pode levar a maus hábitos de pronúncia.",
+      "paragraph6": "Quando lendo inglês como estudante, você tem que continuamente adivinhar a pronúncia de vocabulário novo porque palavras em inglês não são soletradas da mesma forma que são pronunciadas.",
+      "paragraph7": "Então, quando o estudante fala, esses palpites se tornam como eles pronunciam as coisas. Esses palpites iniciais rapidamente se tornam hábito e criam problemas de pronúncia de longo prazo."
+    },
+    "grammar": {
+      "question": "E quanto à Gramática?",
+      "paragraph1": "Contrário à crença popular, a maior parte da gramática que aprendemos é aprendida através de input (escutar e ler) e não exercícios de gramática.",
+      "paragraph2": "Deixe-me dar um exemplo. Dê uma olhada nesta frase.",
+      "exampleSentence": "\"Este é meu irmão. Ele está sabendo inglês muito bem, você pode falar com ele\"",
+      "paragraph3": "Esta frase soa correta para você?",
+      "paragraph4": "Se você já tem um nível intermediário de inglês, provavelmente pode sentir que esta frase não está correta.",
+      "paragraph5": "Por que está incorreta? Você pode explicar logicamente a razão pela qual está errada?",
+      "paragraph6": "A razão real pela qual está errada é porque o verbo \"saber\" é um verbo estativo, e verbos estativos não podem ser usados em tempos contínuos como o presente contínuo aqui.",
+      "paragraph7": "Mas meu palpite é que você provavelmente não sabia disso. Você provavelmente sabe que dizer \"Ele está sabendo inglês\" não está correto porque simplesmente soa estranho para você. Você não sabe especificamente o que está errado, mas pode sentir que não está correto.",
+      "paragraph8": "Então por que esta frase soa estranha para você? Soa estranha para você porque você escutou (e talvez leu) muito inglês correto, e esta frase parece diferente do que você está acostumado a escutar (ou ler).",
+      "paragraph9": "Isso demonstra que é muito possível aprender gramática sem especificamente estudar gramática! Gramática pode ser aprendida simplesmente através de input.",
+      "paragraph10": "Além disso, aprender gramática através de input compreensível ajudará você a se tornar muito mais fluente depois quando falar usando essa gramática porque você não terá que pensar muito para calcular qual tempo verbal deveria usar ou qual ordem a frase deveria ter enquanto tenta falar. Em vez disso, a gramática correta simplesmente sairá da sua boca naturalmente.",
+      "paragraph11": "Quando você aprende gramática através de input compreensível você se torna similar a um falante nativo no sentido de que tem uma sensação do que está correto e incorreto mas não pode explicar por quê.",
+      "paragraph12": "Por exemplo, se você quer aprender o terceiro condicional em inglês, em vez de estudar as regras gramaticais do terceiro condicional, e em vez de fazer exercícios de gramática para o terceiro condicional, apenas assista muito conteúdo que tenha o terceiro condicional nele!",
+      "paragraph13": "Se você escutar um falante nativo usar o terceiro condicional por 10 minutos como neste vídeo, aprenderá muito mais rápido e muito mais profundamente do que faria fazendo exercícios de gramática por 10 minutos.",
+      "paragraph14": "É claro, alguns estudantes acham benéfico fazer alguns exercícios de gramática junto com sua prática de escuta de input compreensível. No EnglishSponge, dizemos que você pode fazer exercícios de gramática e estudo de gramática se desejar.",
+      "paragraph15": "Mas sugerimos que você não gaste grandes quantidades de tempo estudando gramática. Na verdade, recomendamos gastar não mais que 5% do seu tempo estudando gramática. Em vez disso, recomendamos que você gaste a maioria do seu tempo assistindo vídeos de input compreensível e aprenda gramática da forma natural em vez de aprendê-la artificialmente através de questões de gramática \"preencher lacunas\" e assim por diante.",
+      "paragraph16": "Você ficará surpreso com quanta gramática pode aprender sem estudar gramática!"
+    },
+    "feedback": {
+      "question": "E quanto ao Feedback?",
+      "paragraph1": "Você realmente não precisa de ninguém para corrigi-lo.",
+      "paragraph2": "Primeiro de tudo, como já mencionamos, recomendamos que você comece passando por um \"período silencioso\" onde você apenas escuta até atingir o nível intermediário/intermediário superior. Então, é claro, nenhuma correção é necessária se você não está falando.",
+      "paragraph3": "Mas além disso, a crença de que precisamos cometer erros e ser corrigidos repetidamente para aprender um idioma não é realmente verdade. A questão com ser corrigido por um professor é que visa a parte consciente do seu cérebro, não a parte subconsciente ou intuitiva que faz a maior parte do trabalho de produzir linguagem fluente.",
+      "paragraph4": "Frequentemente, estudantes são corrigidos em um erro por um professor, apenas para cometer os mesmos erros exatos 30 segundos depois. Isso acontece porque mesmo depois de ser corrigido pelo professor, o estudante ainda tem o hábito de dizer a coisa incorreta.",
+      "paragraph5": "Além disso, ser corrigido pode ser uma experiência irritante e desagradável para alguns. Pode ser simplesmente bastante irritante ser interrompido e constantemente ouvir que você cometeu um erro repetidamente.",
+      "paragraph6": "Enquanto falantes mais avançados podem gostar de receber correções, ser corrigido repetidamente nos estágios iniciantes de aprender um idioma pode ser desmoralizante e frustrante e levar muitos a começar a se sentir negativamente sobre aprender inglês.",
+      "paragraph7": "Em vez de depender de correções, recomendamos simplesmente obter mais input! Continue absorvendo inglês correto de falantes nativos e gradualmente o número de erros que você comete diminuirá.",
+      "paragraph8": "Correções podem ser úteis para alguns, mas são realmente necessárias para aprender um idioma? Não!"
+    }
+  },
+  "title": "Sobre",
+  "methods": {
+    "title": "Métodos de Aprendizado",
+    "subtitle": "Aprenda mais sobre os métodos de aprendizado do EnglishSponge.",
+    "comprehensibleInput": {
+      "title": "Input Compreensível",
+      "description": "Input compreensível é a exposição à linguagem que está ligeiramente acima do seu nível atual. Este método permite aquisição natural e eficaz da linguagem."
+    },
+    "leveling": {
+      "title": "Nivelamento",
+      "description": "Nosso conteúdo é organizado com base no seu nível atual de compreensão, do iniciante ao avançado. Cada vídeo é marcado com o nível de dificuldade apropriado."
+    },
+    "progress": {
+      "title": "Acompanhamento de Progresso",
+      "description": "Acompanhe seu tempo de estudo, vídeos completados e nível atual. Prática consistente e visualização do progresso ajudam a manter a motivação."
+    }
+  }
+}

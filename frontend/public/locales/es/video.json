@@ -1,0 +1,9 @@
+{
+  "loading": "Cargando...",
+  "description": "Descripción",
+  "locked": "Bloqueado",
+  "series": {
+    "otherVideos": "Otros videos en la serie",
+    "viewAll": "Ver todos"
+  }
+}

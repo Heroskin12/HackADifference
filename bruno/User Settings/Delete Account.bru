@@ -1,0 +1,22 @@
+meta {
+  name: Delete Account
+  type: http
+  seq: 3
+}
+
+delete {
+  url: {{host}}/api/user/settings/delete
+  body: none
+  auth: inherit
+}
+
+body:json {
+  {
+    "currentPassowrd": "thisisp",
+    "newPassword": "thisisnewp"
+  }
+}
+
+body:text {
+  Ayush Goyal
+}

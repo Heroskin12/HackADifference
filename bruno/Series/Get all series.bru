@@ -1,0 +1,15 @@
+meta {
+  name: Get all series
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{host}}/api/series/list
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

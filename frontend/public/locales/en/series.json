@@ -1,0 +1,8 @@
+{
+  "loading": "Loading...",
+  "fallbackTitle": "Series Name Will Go Here",
+  "videoCount": "There are {{count}} videos in this series",
+  "allVideosTitle": "All videos in this series",
+  "unknownCreator": "Unknown Creator",
+  "locked": "Locked"
+}

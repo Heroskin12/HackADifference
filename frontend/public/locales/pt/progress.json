@@ -1,0 +1,215 @@
+{
+  "title": "Seu Progresso",
+  "loading": "Carregando...",
+  "subtitle": "Acompanhe sua jornada de aprendizado de inglês",
+  "cards": {
+    "currentLevel": {
+      "title": "Nível Atual",
+      "nextLevel": "Próximo nível em",
+      "maxLevel": "Você alcançou o nível máximo."
+    },
+    "totalWatchTime": {
+      "title": "Tempo Total de Visualização",
+      "thisWeek": "esta semana.",
+      "outsideHours": "Horas Externas Registradas:"
+    },
+    "videosWatched": {
+      "title": "Vídeos Assistidos",
+      "thisWeek": "vídeos esta semana"
+    },
+    "avgDailyTime": {
+      "title": "Tempo Diário Médio",
+      "inLast": "nos últimos",
+      "days": "dias"
+    }
+  },
+  "timeLabels": {
+    "min": "min",
+    "mins": "mins",
+    "hrs": "hrs"
+  },
+  "errors": {
+    "fetchOutsideHours": "Falha ao buscar horas externas:"
+  },
+  "overview": {
+    "title": "Visão Geral",
+    "totalTime": "Tempo Total de Estudo",
+    "videosWatched": "Vídeos Assistidos",
+    "currentStreak": "Sequência Atual",
+    "longestStreak": "Maior Sequência",
+    "averageDaily": "Média Diária",
+    "weeklyGoal": "Meta Semanal",
+    "monthlyGoal": "Meta Mensal"
+  },
+  "charts": {
+    "title": "Gráficos de Progresso",
+    "watchTimeByCategory": "Tempo de visualização por categoria",
+    "categoryDescription": "Acompanhe suas categorias favoritas e veja o que você mais assiste.",
+    "dailyWatchTime": "Tempo diário de visualização",
+    "noData": "Assim que você começar a assistir conteúdo, novos dados aparecerão aqui. Volte em breve!",
+    "studyTime": {
+      "title": "Tempo de Estudo",
+      "subtitle": "Minutos estudados ao longo do tempo",
+      "daily": "Diário",
+      "weekly": "Semanal",
+      "monthly": "Mensal"
+    },
+    "videosCompleted": {
+      "title": "Vídeos Concluídos",
+      "subtitle": "Número de vídeos assistidos por período"
+    },
+    "levelProgress": {
+      "title": "Progresso por Nível",
+      "subtitle": "Sua distribuição de tempo por nível de dificuldade",
+      "beginner": "Iniciante",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado"
+    }
+  },
+  "timeline": {
+    "title": "Linha do Tempo de Conquistas",
+    "titleStandalone": "Linha do Tempo",
+    "description": "Aqui você pode ver uma descrição do que é necessário para alcançar cada nível no EnglishSponge.",
+    "subtitle": "Marcos importantes em sua jornada",
+    "achievements": {
+      "firstVideo": "Primeiro Vídeo Assistido",
+      "firstHour": "Primeira Hora de Estudo",
+      "firstWeek": "Primeira Semana Completa",
+      "first10Videos": "10 Vídeos Assistidos",
+      "first50Videos": "50 Vídeos Assistidos",
+      "first100Videos": "100 Vídeos Assistidos",
+      "weekStreak": "Sequência de 1 Semana",
+      "monthStreak": "Sequência de 1 Mês",
+      "levelUp": "Subiu para {{level}}",
+      "goalAchieved": "Meta de {{minutes}} Minutos Alcançada"
+    }
+  },
+  "recentActivity": {
+    "title": "Atividade Recente",
+    "noActivity": "Você não tem atividade recente para mostrar. Assim que começar a usar o site, volte aqui para ver mais dados. Volte em breve!"
+  },
+  "activity": {
+    "title": "Atividade Recente",
+    "subtitle": "Suas sessões de estudo dos últimos 7 dias",
+    "noActivity": "Nenhuma atividade recente",
+    "watched": "Assistiu",
+    "promotedTo": "Promovido para {{level}}",
+    "levelUp": "Subiu de nível!",
+    "loggedOutsideHours": "Registrou Horas Externas",
+    "outsideHoursAdded": "Horas externas adicionadas.",
+    "videoRemoved": "Este vídeo foi removido.",
+    "levelRemoved": "Este nível foi removido.",
+    "justNow": "agora mesmo",
+    "seeMore": "Ver Mais",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "daysAgo": "{{count}} dia atrás",
+    "daysAgo_plural": "{{count}} dias atrás",
+    "sessionDetails": {
+      "duration": "Duração: {{minutes}} min",
+      "videos": "Vídeos: {{count}}",
+      "level": "Nível: {{level}}"
+    },
+    "timeUnits": {
+      "minute": "minuto",
+      "minutes": "minutos",
+      "hour": "hora",
+      "hours": "horas"
+    }
+  },
+  "goals": {
+    "title": "Metas",
+    "daily": {
+      "title": "Meta Diária",
+      "subtitle": "{{current}} de {{target}} minutos hoje",
+      "completed": "Meta diária concluída!",
+      "remaining": "{{minutes}} minutos restantes"
+    },
+    "weekly": {
+      "title": "Meta Semanal",
+      "subtitle": "{{current}} de {{target}} minutos esta semana",
+      "completed": "Meta semanal concluída!",
+      "daysLeft": "{{days}} dias restantes"
+    },
+    "monthly": {
+      "title": "Meta Mensal",
+      "subtitle": "{{current}} de {{target}} minutos este mês",
+      "completed": "Meta mensal concluída!",
+      "progress": "{{percent}}% concluído"
+    }
+  },
+  "badges": {
+    "title": "Conquistas",
+    "subtitle": "Badges que você ganhou",
+    "categories": {
+      "time": "Tempo de Estudo",
+      "consistency": "Consistência",
+      "videos": "Vídeos Assistidos",
+      "levels": "Progresso de Nível"
+    },
+    "earned": "Ganhado em {{date}}",
+    "notEarned": "Ainda não ganho",
+    "list": {
+      "firstStep": {
+        "name": "Primeiro Passo",
+        "description": "Assistiu seu primeiro vídeo"
+      },
+      "earlyBird": {
+        "name": "Madrugador",
+        "description": "Estudou antes das 8h da manhã"
+      },
+      "nightOwl": {
+        "name": "Coruja Noturna",
+        "description": "Estudou depois das 10h da noite"
+      },
+      "consistent": {
+        "name": "Consistente",
+        "description": "Estudou por 7 dias seguidos"
+      },
+      "dedicated": {
+        "name": "Dedicado",
+        "description": "Estudou por 30 dias seguidos"
+      },
+      "marathon": {
+        "name": "Maratonista",
+        "description": "Estudou por mais de 2 horas em um dia"
+      },
+      "videoLover": {
+        "name": "Amante de Vídeos",
+        "description": "Assistiu 100 vídeos"
+      },
+      "levelMaster": {
+        "name": "Mestre de Nível",
+        "description": "Dominou todos os níveis de dificuldade"
+      }
+    }
+  },
+  "streaks": {
+    "title": "Sequências",
+    "current": "Sequência Atual",
+    "longest": "Maior Sequência",
+    "description": "Continue estudando todos os dias para manter sua sequência!",
+    "freezeStreak": "Congelar Sequência",
+    "freezeDescription": "Use um congelamento de sequência para proteger sua sequência por um dia",
+    "freezesRemaining": "{{count}} congelamento restante",
+    "freezesRemaining_plural": "{{count}} congelamentos restantes"
+  },
+  "calendar": {
+    "title": "Calendário de Estudo",
+    "subtitle": "Visualize sua atividade de estudo diária",
+    "studiedMinutes": "Estudou {{minutes}} minutos",
+    "noActivity": "Nenhuma atividade",
+    "goalMet": "Meta alcançada",
+    "partialProgress": "Progresso parcial"
+  },
+  "export": {
+    "title": "Exportar Dados",
+    "description": "Baixe seus dados de progresso",
+    "formats": {
+      "csv": "CSV (Excel)",
+      "json": "JSON",
+      "pdf": "Relatório PDF"
+    },
+    "download": "Baixar {{format}}"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "loading": "Cargando...",
+  "fallbackTitle": "El nombre de la serie aparecerá aquí",
+  "videoCount": "Hay {{count}} videos en esta serie",
+  "allVideosTitle": "Todos los videos de esta serie",
+  "unknownCreator": "Creador desconocido",
+  "locked": "Bloqueado"
+}
