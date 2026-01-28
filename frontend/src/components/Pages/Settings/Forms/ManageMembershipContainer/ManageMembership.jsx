@@ -1,9 +1,6 @@
 import { useState, useContext, useEffect } from "react";
 import { ModalContext } from "../../../../Reusables/Modal/ModalContext";
-import {
-  fetchManageSubscriptionLink,
-  getPaymentInfo,
-} from "../../../../../api/membership";
+// TODO: Implement new API - import { fetchManageSubscriptionLink, getPaymentInfo } from "../../../../../api/membership";
 import { useTranslation } from "react-i18next";
 
 export default function ManageMembership({ membership }) {

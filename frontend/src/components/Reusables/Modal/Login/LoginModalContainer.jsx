@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { ModalContext } from "../ModalContext";
 import { AuthContext } from "../../../../context/AuthContext";
 import { submitLoginRequest } from "../../../../api/auth";
-import { fetchUserDetails } from "../../../../api/user";
+// TODO: Implement new API - import { fetchUserDetails } from "../../../../api/user";
 import {
   checkEmailValidity,
   sanitizeInput,

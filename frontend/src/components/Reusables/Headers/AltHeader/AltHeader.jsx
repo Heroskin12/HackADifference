@@ -7,7 +7,7 @@ import FlagLanguageSwitcher from "../../LanguageSwitcher/FlagLanguageSwitcher.js
 import MobileFlagLanguageSwitcher from "../../LanguageSwitcher/MobileFlagLanguageSwitcher.jsx";
 import { AuthContext } from "../../../../context/AuthContext.jsx";
 import CrownIcon from "../../../../assets/CrownIcon.jsx";
-import { getPaymentInfo } from "../../../../api/membership.js";
+// TODO: Implement new API - import { getPaymentInfo } from "../../../../api/membership.js";
 import { useTranslation } from "react-i18next";
 
 export default function AltHeader() {

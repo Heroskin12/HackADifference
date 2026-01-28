@@ -1,6 +1,6 @@
 import ChangePasswordForm from "./ChangePasswordForm";
 import { useState } from "react";
-import { changePassword } from "../../../../../api/changeSettings";
+// TODO: Implement new API - import { changePassword } from "../../../../../api/changeSettings";
 import {
   sanitizeInput,
   validatePassword,

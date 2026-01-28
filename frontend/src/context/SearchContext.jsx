@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect, useContext } from "react";
-import { fetchFilterResults } from "../api/search";
+// TODO: Implement new API - import { fetchFilterResults } from "../api/search";
 import { AuthContext } from "./AuthContext";
 
 export const SearchContext = createContext();

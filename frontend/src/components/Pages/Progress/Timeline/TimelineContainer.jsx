@@ -1,5 +1,5 @@
 import Timeline from "./Timeline";
-import { fetchTimelineData } from "../../../../api/timeline.js";
+// TODO: Implement new API - import { fetchTimelineData } from "../../../../api/timeline.js";
 import { useEffect, useState } from "react";
 
 export default function TimelineContainer({ currentLevel }) {

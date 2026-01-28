@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { getPaymentInfo } from "../api/membership";
+// TODO: Implement new API - import { getPaymentInfo } from "../api/membership";
 import { AuthContext } from "./AuthContext";
 
 export const PaymentErrorContext = createContext();

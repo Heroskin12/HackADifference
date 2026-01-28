@@ -1,7 +1,7 @@
 import SubscribeModal from "./SubscribeModal";
 import { ModalContext } from "../../ModalContext";
 import { useContext } from "react";
-import { createCheckoutSession } from "../../../../../api/membership";
+// TODO: Implement new API - import { createCheckoutSession } from "../../../../../api/membership";
 
 export default function SubscribeModalContainer() {
   const { closeModal, openModal, isOpen, type } = useContext(ModalContext);

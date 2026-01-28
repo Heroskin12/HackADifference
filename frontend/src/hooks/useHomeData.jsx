@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from "react";
-import { fetchLatestVideos, fetchFilterLists } from "../api/home";
-import { fetchAllSeries } from "../api/series";
+// TODO: Implement new API - import { fetchLatestVideos, fetchFilterLists } from "../api/home";
+// TODO: Implement new API - import { fetchAllSeries } from "../api/series";
 import { AuthContext } from "../context/AuthContext";
 import { useTranslation } from "react-i18next";
 

@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { AuthContext } from "./AuthContext"; // Adjust the path as needed
-import { updateWatchTime } from "../api/video"; // Adjust the path as needed
-import { changeGoal } from "../api/changeSettings"; // Adjust the path as needed
+import { AuthContext } from "./AuthContext";
+// TODO: Implement new API - import { updateWatchTime } from "../api/video";
+// TODO: Implement new API - import { changeGoal } from "../api/changeSettings";
 
 export const GoalContext = createContext();
 
