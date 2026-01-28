@@ -2,7 +2,7 @@ import LogoBar from "../../Logo/LogoBar.jsx";
 import LogoBarSmall from "../../Logo/LogoBarSmall.jsx";
 import SearchContainer from "../../Search/SearchContainer.jsx";
 import ModalButton from "../../Buttons/ModalButton.jsx";
-import ProgressBar from "../../ProgressBar/ProgressBar.jsx";
+// import ProgressBar from "../../ProgressBar/ProgressBar.jsx";
 import { useContext } from "react";
 import { AuthContext } from "../../../../context/AuthContext.jsx";
 // TODO: Implement new API - import { getPaymentInfo } from "../../../../api/membership.js";
@@ -93,7 +93,7 @@ export default function HomeHeader() {
               {t("header.latestVideos")}
             </h1>
           </div>
-          <ProgressBar />
+          {/* ProgressBar removed for demo */}
         </div>
       </div>
     </>
