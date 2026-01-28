@@ -1,7 +1,7 @@
-import { useParams, Link, useNavigate } from "react-router";
+import { useParams, useNavigate } from "react-router";
 import Header from "../components/Reusables/Headers/AltHeader/AltHeader";
-// TODO: Implement new API - import { fetchSeriesVideosById, fetchSeriesDetailsById } from "../api/series";
 import { useEffect, useState, useContext } from "react";
+import { mockSeries, mockVideos } from "../api/mockData";
 import GridButton from "../components/Reusables/Buttons/GridButton";
 import UserIconSmall from "../assets/UserIconSmall";
 import LockIcon from "../assets/LockIcon";
@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 export default function Series() {
   const { id } = useParams(); // Get the series id from the URL
   const navigate = useNavigate();
-  const { isAuthenticated, userInfo } = useContext(AuthContext);
+  const { isAuthenticated } = useContext(AuthContext);
   const { openModal } = useContext(ModalContext);
   const { t } = useTranslation("series");
   const [loading, setLoading] = useState(true);
@@ -72,29 +72,18 @@ export default function Series() {
   };
 
   useEffect(() => {
-    const fetchSeries = async () => {
-      try {
-        const videos = await fetchSeriesVideosById(id);
-        setSeriesVideos(videos);
-      } catch (error) {
-        console.error("Error fetching series data:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchSeries();
-  }, [id, isAuthenticated, userInfo]);
-
-  useEffect(() => {
-    const fetchDetails = async () => {
-      try {
-        const details = await fetchSeriesDetailsById(id);
-        setSeriesDetails(details);
-      } catch (error) {
-        console.error("Error fetching series details:", error);
-      }
-    };
-    fetchDetails();
+    // Simulate loading
+    setLoading(true);
+    // Find the series details by id
+    const foundSeries = mockSeries.find((s) => String(s.id) === String(id));
+    setSeriesDetails(foundSeries || null);
+    // For demo, use mockVideos that match the series guide or just all videos
+    // (You can adjust this logic as needed)
+    const videos = mockVideos.filter((v) =>
+      foundSeries ? v.guide === foundSeries.guide : true,
+    );
+    setSeriesVideos(videos);
+    setLoading(false);
   }, [id]);
 
   // Test thumbnails when series videos are available
