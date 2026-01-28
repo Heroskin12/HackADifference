@@ -4,7 +4,7 @@ import ChangeNameFormContainer from "./Forms/ChangeNameForm/ChangeNameFormContai
 import ChangePasswordFormContainer from "./Forms/ChangePasswordForm/ChangePasswordFormContainer";
 import ChevronDown from "../../../assets/ChevronDown.jsx"; // Update the path to your chevron icon
 import { AuthContext } from "../../../context/AuthContext.jsx";
-import ManageMembershipContainer from "./Forms/ManageMembershipContainer/ManageMembershipContainer.jsx";
+// import ManageMembershipContainer from "./Forms/ManageMembershipContainer/ManageMembershipContainer.jsx";
 import { useTranslation } from "react-i18next";
 export default function SettingsFormContainer() {
   const [activeAccordion, setActiveAccordion] = useState(null);
@@ -13,7 +13,7 @@ export default function SettingsFormContainer() {
 
   const toggleAccordion = (accordionName) => {
     setActiveAccordion((prev) =>
-      prev === accordionName ? null : accordionName
+      prev === accordionName ? null : accordionName,
     );
   };
 
@@ -83,7 +83,7 @@ export default function SettingsFormContainer() {
           </div>
         )}
       </div>
-      {/* Manage Membership Accordion */}
+      {/* Manage Membership Accordion (UI only, payment logic removed) */}
       <div className="border rounded-md">
         <div
           className="flex justify-between items-center p-4 cursor-pointer"
@@ -101,7 +101,9 @@ export default function SettingsFormContainer() {
         </div>
         {activeAccordion === "manageMembership" && (
           <div className="px-4">
-            <ManageMembershipContainer membership={userInfo.subscriptionTier} />
+            <div className="text-text-secondary">
+              Membership management UI only. Payment logic removed.
+            </div>
           </div>
         )}
       </div>

@@ -1,15 +1,25 @@
 import { useState, useEffect, useContext } from "react";
-// TODO: Implement new API - import { fetchLatestVideos, fetchFilterLists } from "../api/home";
-// TODO: Implement new API - import { fetchAllSeries } from "../api/series";
+import { mockVideos, mockSeries } from "../api/mockData";
 import { AuthContext } from "../context/AuthContext";
-import { useTranslation } from "react-i18next";
 
 export const useHomeData = () => {
   const { isAuthenticated, loading } = useContext(AuthContext);
-  const { i18n } = useTranslation();
   const [latestVideos, setLatestVideos] = useState([]);
   const [allSeries, setAllSeries] = useState([]);
-  const [filterLists, setFilterLists] = useState([]);
+  const [filterLists, setFilterLists] = useState({
+    levels: ["Beginner", "Intermediate", "Advanced"],
+    accents: ["US", "UK", "AU"],
+    topics: [
+      "Speaking",
+      "Listening",
+      "Pronunciation",
+      "Idioms",
+      "Vocabulary",
+      "Business",
+      "Travel",
+      "Culture",
+    ],
+  });
   const [loadingInitial, setLoadingInitial] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const [hasMoreVideos, setHasMoreVideos] = useState(true);
@@ -21,79 +31,24 @@ export const useHomeData = () => {
     if (loading) {
       return;
     }
+    setLoadingInitial(true);
+    setError(null);
+    // Simulate async fetch with setTimeout
+    setTimeout(() => {
+      setLatestVideos(mockVideos);
+      setAllSeries(mockSeries);
+      setPageIndex(1);
+      setHasMoreVideos(false); // No more videos in mock
+      setLoadingInitial(false);
+    }, 300);
+  }, [isAuthenticated, loading]);
 
-    const fetchData = async () => {
-      setLoadingInitial(true);
-      setError(null); // Reset error state
-      try {
-        const [videos, series, filters] = await Promise.all([
-          fetchLatestVideos(1),
-          fetchAllSeries(),
-          fetchFilterLists(i18n.language),
-        ]);
-        if (videos.length === 0) {
-          setError("No videos could be found. Please try again later.");
-        } else {
-          setLatestVideos(videos);
-          setFilterLists(filters);
-        }
+  // No-op for language change in mock mode
 
-        if (series.length === 0) {
-          setError("No series could be found. Please try again later.");
-        } else {
-          setAllSeries(series);
-        }
-
-        // Reset pagination when refetching
-        setPageIndex(1);
-        setHasMoreVideos(true);
-      } catch (error) {
-        setError(
-          "Failed to load video or series data. Please try again later."
-        );
-        console.error("Error fetching data:", error);
-      } finally {
-        setLoadingInitial(false);
-      }
-    };
-    fetchData();
-  }, [isAuthenticated, loading]); // Refetch when authentication status changes
-
-  // Separate effect to refetch filters when language changes
-  useEffect(() => {
-    if (loading || loadingInitial) {
-      return;
-    }
-
-    const refetchFilters = async () => {
-      try {
-        const filters = await fetchFilterLists(i18n.language);
-        setFilterLists(filters);
-      } catch (error) {
-        console.error("Error refetching filters for language change:", error);
-      }
-    };
-
-    refetchFilters();
-  }, [i18n.language, loading, loadingInitial]);
-
+  // No-op for fetchNextVideos in mock mode
   const fetchNextVideos = async () => {
-    setLoadingMore(true);
-    setError(null); // Reset error state
-    try {
-      const newVideos = await fetchLatestVideos(pageIndex + 1); // Fetch the next page of videos
-      if (newVideos.length === 0) {
-        setHasMoreVideos(false); // Set to false only if no new videos are returned
-      } else {
-        setLatestVideos((prevVideos) => [...prevVideos, ...newVideos]); // Append new videos to the existing list
-        setPageIndex((prevPage) => prevPage + 1); // Increment the page index
-      }
-    } catch (error) {
-      setError("Failed to load more videos. Please try again later.");
-      console.error("Error fetching next videos:", error);
-    } finally {
-      setLoadingMore(false);
-    }
+    setLoadingMore(false);
+    setHasMoreVideos(false);
   };
 
   return {

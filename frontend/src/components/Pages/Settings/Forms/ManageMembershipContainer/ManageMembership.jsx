@@ -7,47 +7,22 @@ export default function ManageMembership({ membership }) {
   const { t } = useTranslation("settings");
   const [isLoading, setIsLoading] = useState(false);
   const [paymentInfo, setPaymentInfo] = useState(null);
-  const [isLoadingPaymentInfo, setIsLoadingPaymentInfo] = useState(false);
-  const { openModal } = useContext(ModalContext);
 
+  // Hardcoded payment info for UI only
   useEffect(() => {
-    const fetchPaymentInfo = async () => {
-      if (membership == 2) {
-        setIsLoadingPaymentInfo(true);
-        try {
-          const info = await getPaymentInfo();
-          // For now, use hardcoded value since backend isn't ready
-          setPaymentInfo(info);
-        } catch (error) {
-          console.error("Error fetching payment info:", error);
-          // Fallback to hardcoded value if API fails
-        } finally {
-          setIsLoadingPaymentInfo(false);
-        }
-      }
-    };
-
-    fetchPaymentInfo();
+    if (membership === 2) {
+      setPaymentInfo("Premium Plan: Active");
+    } else {
+      setPaymentInfo("Free Plan: Upgrade to Premium");
+    }
   }, [membership]);
 
+  // UI-only dummy actions
   const handleUpgradeToPremium = () => {
-    openModal("subscribe");
+    alert("Upgrade to Premium (UI only, no backend)");
   };
-
   const handleManageMembership = async () => {
-    setIsLoading(true);
-    try {
-      const response = await fetchManageSubscriptionLink();
-      if (response && response.sessionUrl) {
-        window.location.href = response.sessionUrl;
-      } else {
-        console.error("Failed to get subscription management URL");
-      }
-    } catch (error) {
-      console.error("Error getting subscription management URL:", error);
-    } finally {
-      setIsLoading(false);
-    }
+    alert("Manage Membership (UI only, no backend)");
   };
 
   return (
@@ -55,7 +30,8 @@ export default function ManageMembership({ membership }) {
       <p className="text-text-secondary pb-2">{t("membership.description")}</p>
       {membership == 2 && (
         <p className="text-text-secondary mb-4 text-[14px]">
-          {t("membership.stripeNote")}
+          {/* Stripe note removed, UI only */}
+          Premium plan active (UI only)
         </p>
       )}
       <div className="space-y-4 pb-4">
@@ -70,22 +46,18 @@ export default function ManageMembership({ membership }) {
           </h3>
           {membership == 1 && (
             <>
-              <p className="text-text-secondary">
-                {t("membership.freeDescription")}
-              </p>
+              <p className="text-text-secondary">Free plan (UI only)</p>
               <button
                 className="p-2 mt-4 bg-orange-accent text-light-primary rounded-md text-[16px] font-fun font-semibold w-50 cursor-pointer"
                 onClick={handleUpgradeToPremium}
               >
-                {t("membership.upgradeToPremium")}
+                Upgrade to Premium
               </button>
             </>
           )}
           {membership == 2 && (
             <>
-              <p className="text-text-secondary">
-                {t("membership.premiumDescription")}
-              </p>
+              <p className="text-text-secondary">Premium plan (UI only)</p>
               {paymentInfo && (
                 <p className="text-red-400 text-[12px] mt-2">{paymentInfo}</p>
               )}
@@ -94,7 +66,7 @@ export default function ManageMembership({ membership }) {
                 onClick={handleManageMembership}
                 disabled={isLoading}
               >
-                {isLoading ? t("loading") : t("membership.manageMembership")}
+                {isLoading ? "Loading..." : "Manage Membership"}
               </button>
             </>
           )}

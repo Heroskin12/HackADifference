@@ -1,13 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Outlet } from "react-router";
 import NavManager from "../Navbar/NavManager";
 import GoalProvider from "../../context/GoalContext";
-import { usePaymentError } from "../../context/PaymentErrorContext";
-import PaymentErrorBanner from "../PaymentErrorBanner/PaymentErrorBanner";
 
 export default function SplitScreen() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const { showBanner } = usePaymentError();
+  const filterLists = {
+    filters: [
+      { key: "level", values: ["Beginner", "Intermediate", "Advanced"] },
+      { key: "accent", values: ["US", "UK", "AU"] },
+      {
+        key: "topic",
+        values: [
+          "Speaking",
+          "Listening",
+          "Pronunciation",
+          "Idioms",
+          "Vocabulary",
+          "Business",
+          "Travel",
+          "Culture",
+        ],
+      },
+    ],
+  };
 
   return (
     <div className="md:flex h-screen">
@@ -23,16 +39,9 @@ export default function SplitScreen() {
           `}
         >
           <div className="relative">
-            <PaymentErrorBanner />
-            <div
-              className={`bg-light-primary min-h-screen mb-[73px] ${
-                showBanner ? "pt-16" : ""
-              }`}
-            >
-              <GoalProvider>
-                <Outlet />
-              </GoalProvider>
-            </div>
+            <GoalProvider>
+              <Outlet />
+            </GoalProvider>
           </div>
         </div>
       </div>

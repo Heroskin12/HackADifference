@@ -25,7 +25,7 @@ export default function PaymentErrorProvider({ children }) {
           // If the API call fails, also show an error
           console.error("Payment info error:", error);
           setPaymentError(
-            "There was an issue checking your payment information. Please contact support."
+            "There was an issue checking your payment information. Please contact support.",
           );
           setShowBanner(true);
         }
@@ -56,7 +56,7 @@ export const usePaymentError = () => {
   const context = useContext(PaymentErrorContext);
   if (!context) {
     throw new Error(
-      "usePaymentError must be used within a PaymentErrorProvider"
+      "usePaymentError must be used within a PaymentErrorProvider",
     );
   }
   return context;

@@ -1,7 +1,6 @@
 import MobileSearchContainer from "../../Search/MobileSearchContainer";
 import LogoBarSmall from "../../Logo/LogoBarSmall";
 import ModalButton from "../../Buttons/ModalButton";
-import MobileFlagLanguageSwitcher from "../../LanguageSwitcher/MobileFlagLanguageSwitcher.jsx";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../../../context/AuthContext.jsx";
 import CloseIcon from "../../../../assets/CloseIcon.jsx";
@@ -15,16 +14,6 @@ export default function MobileHomeHeader() {
   const { isAuthenticated, userInfo } = useContext(AuthContext);
   const [active, setActive] = useState(false);
   const { setSearchQuery } = useContext(SearchContext);
-
-  const CrownWithTooltip = () => (
-    <div className="relative group">
-      <CrownIcon width="20px" height="20px" style={{ color: "#FFD700" }} />
-      <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-gray-800 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
-        Premium Member
-        <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-800"></div>
-      </div>
-    </div>
-  );
 
   const searchClickHandler = () => {
     setActive((prev) => !prev);
@@ -40,8 +29,6 @@ export default function MobileHomeHeader() {
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <LogoBarSmall />
-          <MobileFlagLanguageSwitcher />
-          {userInfo?.subscriptionTier == 2 && <CrownWithTooltip />}
           {isAuthenticated && (
             <p className="font-fun text-dark-primary text-[14px]">
               {tCommon("welcomeBack")}

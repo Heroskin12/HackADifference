@@ -1,8 +1,0 @@
-{
-  "loading": "読み込み中...",
-  "fallbackTitle": "シリーズ名がここに表示されます",
-  "videoCount": "このシリーズには{{count}}個の動画があります",
-  "allVideosTitle": "このシリーズのすべての動画",
-  "unknownCreator": "不明な作成者",
-  "locked": "ロック済み"
-}

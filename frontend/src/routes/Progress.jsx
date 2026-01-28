@@ -90,7 +90,7 @@ export default function Progress() {
       const minuteLabel =
         remainingMinutes === 1 ? t("timeLabels.min") : t("timeLabels.mins");
       return `${hours} ${t(
-        "timeLabels.hrs"
+        "timeLabels.hrs",
       )} ${remainingMinutes} ${minuteLabel}`;
     }
     const minuteLabel =
@@ -105,7 +105,7 @@ export default function Progress() {
 
     const totalMinutes = dailyWatchTime.reduce(
       (sum, item) => sum + item.minutes,
-      0
+      0,
     );
     const averageMinutes = totalMinutes / dailyWatchTime.length;
 
@@ -136,7 +136,7 @@ export default function Progress() {
                   subText={`${t("cards.currentLevel.nextLevel")} ${
                     (userProgressData?.currentLevel?.minutesToNextLevel &&
                       formatTime(
-                        userProgressData?.currentLevel?.minutesToNextLevel
+                        userProgressData?.currentLevel?.minutesToNextLevel,
                       )) ||
                     t("cards.currentLevel.maxLevel")
                   }`}
@@ -147,13 +147,13 @@ export default function Progress() {
                   title={t("cards.totalWatchTime.title")}
                   icon={ClockIcon}
                   stat={formatTime(
-                    userProgressData?.totalTimeVideo?.totalWatchTime || 0
+                    userProgressData?.totalTimeVideo?.totalWatchTime || 0,
                   )}
                   subText={
                     <>
                       +{" "}
                       {formatTime(
-                        userProgressData?.totalTimeVideo?.watchTimeThisWeek
+                        userProgressData?.totalTimeVideo?.watchTimeThisWeek,
                       )}{" "}
                       {t("cards.totalWatchTime.thisWeek")}
                       <br />
@@ -185,13 +185,13 @@ export default function Progress() {
                     userProgressData?.dailyWatchTime?.length > 0
                       ? formatTime(
                           calculateAverageMinutes(
-                            userProgressData.dailyWatchTime
-                          )
+                            userProgressData.dailyWatchTime,
+                          ),
                         )
                       : `0 ${t("timeLabels.hrs")}`
                   }
                   subText={`${t("cards.avgDailyTime.inLast")} 30 ${t(
-                    "cards.avgDailyTime.days"
+                    "cards.avgDailyTime.days",
                   )}`}
                   textColor="text-light-primary"
                 />

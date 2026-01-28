@@ -21,7 +21,7 @@ export default function TimelineContainer({ currentLevel }) {
 
         // Check if B1.5 already exists in backend data
         const hasB15 = data.some(
-          (item) => item.name === "B1.5 Upper-Intermediate"
+          (item) => item.name === "B1.5 Upper-Intermediate",
         );
         if (!hasB15) {
           enhancedData.splice(4, 0, {

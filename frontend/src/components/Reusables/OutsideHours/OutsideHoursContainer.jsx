@@ -70,12 +70,12 @@ export default function OutsideHoursContainer() {
 
           setCurrentTotalMinutes(newTotalMinutes);
           setCurrentOutsideHours(
-            convertMinutesToHoursAndMinutes(newTotalMinutes)
+            convertMinutesToHoursAndMinutes(newTotalMinutes),
           );
         }
 
         setLastAddedTime(
-          convertMinutesToHoursAndMinutes(outsideHoursData.minutes)
+          convertMinutesToHoursAndMinutes(outsideHoursData.minutes),
         );
         setShowSuccess(true);
         setError(null);

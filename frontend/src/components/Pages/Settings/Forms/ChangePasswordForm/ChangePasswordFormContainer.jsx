@@ -30,7 +30,7 @@ export default function ChangePasswordFormContainer() {
       try {
         const response = await changePassword(
           formData.currentPassword,
-          formData.confirmNewPassword
+          formData.confirmNewPassword,
         );
         if (response.success) {
           alert("Password changed successfully!");
