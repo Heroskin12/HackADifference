@@ -83,30 +83,6 @@ export default function SettingsFormContainer() {
           </div>
         )}
       </div>
-      {/* Manage Membership Accordion (UI only, payment logic removed) */}
-      <div className="border rounded-md">
-        <div
-          className="flex justify-between items-center p-4 cursor-pointer"
-          onClick={() => toggleAccordion("manageMembership")}
-        >
-          <h2 className="text-lg font-semibold">
-            {t("accordion.manageMembership")}
-          </h2>
-          <ChevronDown
-            alt="Toggle"
-            className={`w-4 h-4 transform ${
-              activeAccordion === "manageMembership" ? "rotate-180" : ""
-            }`}
-          />
-        </div>
-        {activeAccordion === "manageMembership" && (
-          <div className="px-4">
-            <div className="text-text-secondary">
-              Membership management UI only. Payment logic removed.
-            </div>
-          </div>
-        )}
-      </div>
     </div>
   );
 }

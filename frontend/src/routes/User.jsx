@@ -42,9 +42,6 @@ export default function User() {
                 </p>
               </div>
             </div>
-
-            {/* Progress bar removed */}
-            <OutsideHoursContainer />
           </div>
         ) : (
           <>

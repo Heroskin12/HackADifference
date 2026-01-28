@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router";
-import About from "./routes/About.jsx";
 import Home from "./routes/Home.jsx";
 import Post from "./routes/Post.jsx";
 import Progress from "./routes/Progress.jsx";
@@ -15,7 +14,6 @@ export default createBrowserRouter([
     errorElement: Error,
     children: [
       { index: true, Component: Home },
-      { path: "about", Component: About },
       { path: "progress", Component: Progress },
       { path: "post/:id", Component: Post },
       { path: "user/:id", Component: User },
